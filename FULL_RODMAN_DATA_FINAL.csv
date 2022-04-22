@@ -1,0 +1,533 @@
+﻿id,Street,City and Zip,Full address,Latitude,Longitude,key_id
+1,560 Stokes Landing Rd,"Palatka, FL, 32177","560 Stokes Landing Rd,Palatka, FL, 32177",29.57458,-81.702173,1
+2,606 Stokes Landing Rd,"Palatka, FL, 32177","606 Stokes Landing Rd,Palatka, FL, 32177",29.572381,-81.698794,2
+3,604 Stokes Landing Rd,"Palatka, FL, 32177","604 Stokes Landing Rd,Palatka, FL, 32177",29.572183,-81.699482,3
+4,901 Front St,"Welaka, FL, 32193","901 Front St,Welaka, FL, 32193",29.47616,-81.675212,4
+5,122 N Hubers Fish Camp Rd,"Crescent City, FL, 32112","122 N Hubers Fish Camp Rd,Crescent City, FL, 32112",29.430777,-81.648199,5
+6,148 Shell Harbour Rd,"Satsuma, FL, 32189","148 Shell Harbour Rd,Satsuma, FL, 32189",29.52103,-81.677505,6
+7,117 St Johns Fishing Lodge Rd,"Crescent City, FL, 32112","117 St Johns Fishing Lodge Rd,Crescent City, FL, 32112",29.421303,-81.646729,7
+8,215 Walker Rd,"Crescent City, FL, 32112","215 Walker Rd,Crescent City, FL, 32112",29.425021,-81.646587,8
+9,129 S Hubers Fish Camp Rd,"Crescent City, FL, 32112","129 S Hubers Fish Camp Rd,Crescent City, FL, 32112",29.430081,-81.646986,9
+10,125 N Hubers Fish Camp Rd,"Crescent City, FL, 32112","125 N Hubers Fish Camp Rd,Crescent City, FL, 32112",29.430419,-81.648003,10
+11,118 Camp George Rd,"Crescent City, FL, 32112","118 Camp George Rd,Crescent City, FL, 32112",29.422223,-81.646605,11
+12,217 Walker Rd,"Crescent City, FL, 32112","217 Walker Rd,Crescent City, FL, 32112",29.424772,-81.646626,12
+13,723 National Forest Rd 75G,"Palatka, FL, 32177","723 National Forest Rd 75G,Palatka, FL, 32177",29.41795,-81.660078,13
+14,206 S Hayes Ave,"Crescent City, FL, 32112","206 S Hayes Ave,Crescent City, FL, 32112",29.418233,-81.649523,14
+15,200 S Hayes Ave,"Crescent City, FL, 32112","200 S Hayes Ave,Crescent City, FL, 32112",29.418817,-81.648809,15
+16,111 Ludwig Ave,"Crescent City, FL, 32112","111 Ludwig Ave,Crescent City, FL, 32112",29.417654,-81.645907,16
+17,207 Walker Rd,"Crescent City, FL, 32112","207 Walker Rd,Crescent City, FL, 32112",29.424535,-81.646585,17
+18,107 Ludwig Ave,"Crescent City, FL, 32112","107 Ludwig Ave,Crescent City, FL, 32112",29.417697,-81.645199,18
+19,111 Ramona Rd,"Crescent City, FL, 32112","111 Ramona Rd,Crescent City, FL, 32112",29.432639,-81.662802,19
+20,750 National Forest Rd 75G,"Palatka, FL, 32177","750 National Forest Rd 75G,Palatka, FL, 32177",29.421384,-81.660618,20
+21,606 Bass Dr,"Crescent City, FL, 32112","606 Bass Dr,Crescent City, FL, 32112",29.417788,-81.648869,21
+22,219 Park Ave,"Crescent City, FL, 32112","219 Park Ave,Crescent City, FL, 32112",29.418335,-81.646753,22
+23,134 S Hubers Fish Camp Rd,"Crescent City, FL, 32112","134 S Hubers Fish Camp Rd,Crescent City, FL, 32112",29.42933,-81.64699,23
+24,1028 County Road 309,"Crescent City, FL, 32112","1028 County Road 309,Crescent City, FL, 32112",29.441286,-81.648253,24
+25,604 Bass Dr,"Crescent City, FL, 32112","604 Bass Dr,Crescent City, FL, 32112",29.417644,-81.648469,25
+26,118 Ludwig Ave,"Crescent City, FL, 32112","118 Ludwig Ave,Crescent City, FL, 32112",29.418061,-81.646745,26
+27,1189 County Road 309,"Crescent City, FL, 32112","1189 County Road 309,Crescent City, FL, 32112",29.420377,-81.647003,27
+28,134 Nortons Fish Camp Rd,"Satsuma, FL, 32189","134 Nortons Fish Camp Rd,Satsuma, FL, 32189",29.514651,-81.676481,28
+29,772 National Forest Rd 75G,"Palatka, FL, 32177","772 National Forest Rd 75G,Palatka, FL, 32177",29.419376,-81.656832,29
+30,210 S Hayes Ave,"Crescent City, FL, 32112","210 S Hayes Ave,Crescent City, FL, 32112",29.41803,-81.649674,30
+31,131 Ramona Rd,"Crescent City, FL, 32112","131 Ramona Rd,Crescent City, FL, 32112",29.431745,-81.660618,31
+32,600 Bass Dr,"Crescent City, FL, 32112","600 Bass Dr,Crescent City, FL, 32112",29.417564,-81.648133,32
+33,300 Bass Dr,"Crescent City, FL, 32112","300 Bass Dr,Crescent City, FL, 32112",29.418843,-81.647216,33
+34,134 Hayes Ave,"Crescent City, FL, 32112","134 Hayes Ave,Crescent City, FL, 32112",29.41929,-81.648452,34
+35,1171 County Road 309,"Crescent City, FL, 32112","1171 County Road 309,Crescent City, FL, 32112",29.423204,-81.646202,35
+36,120 National Forest Rd 29 ,"Palatka, FL, 32177","120 National Forest Rd 29 ,Palatka, FL, 32177",29.422518,-81.665802,36
+37,115 Ramona Rd,"Crescent City, FL, 32112","115 Ramona Rd,Crescent City, FL, 32112",29.432532,-81.662334,37
+38,181 Buffalo Bluff Rd,"Palatka, FL, 32177","181 Buffalo Bluff Rd,Palatka, FL, 32177",29.604553,-81.687203,38
+39,141 Shell Harbour Rd,"Satsuma, FL, 32189","141 Shell Harbour Rd,Satsuma, FL, 32189",29.519865,-81.677135,39
+40,218 Park Ave,"Crescent City, FL, 32112","218 Park Ave,Crescent City, FL, 32112",29.418745,-81.646764,40
+41,134 Easy Dr,"Satsuma, FL, 32189","134 Easy Dr,Satsuma, FL, 32189",29.515525,-81.676342,41
+42,739 National Forest Rd 75G,"Palatka, FL, 32177","739 National Forest Rd 75G,Palatka, FL, 32177",29.418683,-81.659793,42
+43,129 W Palm Ave,"Crescent City, FL, 32112","129 W Palm Ave,Crescent City, FL, 32112",29.417304,-81.647603,43
+44,200 Bass Dr,"Crescent City, FL, 32112","200 Bass Dr,Crescent City, FL, 32112",29.419224,-81.647776,44
+45,117 Shaffer Ave,"Crescent City, FL, 32112","117 Shaffer Ave,Crescent City, FL, 32112",29.419026,-81.646431,45
+46,120 Ludwig Ave,"Crescent City, FL, 32112","120 Ludwig Ave,Crescent City, FL, 32112",29.418051,-81.6472,46
+47,130 S Hubers Fish Camp Rd,"Crescent City, FL, 32112","130 S Hubers Fish Camp Rd,Crescent City, FL, 32112",29.429539,-81.647077,47
+48,211 Park Ave,"Crescent City, FL, 32112","211 Park Ave,Crescent City, FL, 32112",29.418395,-81.645952,48
+49,139 Ramona Rd,"Crescent City, FL, 32112","139 Ramona Rd,Crescent City, FL, 32112",29.431418,-81.659779,49
+50,1187 County Road 309,"Crescent City, FL, 32112","1187 County Road 309,Crescent City, FL, 32112",29.420821,-81.646217,50
+51,127 Ramona Rd,"Crescent City, FL, 32112","127 Ramona Rd,Crescent City, FL, 32112",29.432169,-81.660952,51
+52,746 National Forest Rd 75G,"Palatka, FL, 32177","746 National Forest Rd 75G,Palatka, FL, 32177",29.421593,-81.661501,52
+53,120 Deans Creek Trail ,"Palatka, FL, 32134","120 Deans Creek Trail ,Palatka, FL, 32134",29.490295,-81.795267,53
+54,756 National Forest Rd 75G,"Palatka, FL, 32177","756 National Forest Rd 75G,Palatka, FL, 32177",29.420969,-81.659732,54
+55,126 Hayes Ave,"Crescent City, FL, 32112","126 Hayes Ave,Crescent City, FL, 32112",29.41989,-81.647731,55
+56,1965 County Road 308,"Crescent City, FL, 32112","1965 County Road 308,Crescent City, FL, 32112",29.426884,-81.645826,56
+57,123 Ramona Rd ,"Crescent City, FL, 32112","123 Ramona Rd ,Crescent City, FL, 32112",29.432355,-81.66132,57
+58,7986 National Forest Rd 74,"Palatka, FL, 32177","7986 National Forest Rd 74,Palatka, FL, 32177",29.496893,-81.807288,58
+59,107 Ramona Rd ,"Crescent City, FL, 32112","107 Ramona Rd ,Crescent City, FL, 32112",29.432908,-81.663235,59
+60,151 Shell Harbour Rd,"Satsuma, FL, 32189","151 Shell Harbour Rd,Satsuma, FL, 32189",29.521409,-81.676754,60
+61,110 Floridian Club Ln,"Welaka, FL 32193","110 Floridian Club Ln,Welaka, FL 32193",29.493473,-81.677155,61
+62,116 Poinsettia Dr,"Satsuma, FL, 32189","116 Poinsettia Dr,Satsuma, FL, 32189",29.579912,-81.676317,62
+63,115 Hayes Ave,"Crescent City, FL, 32112","115 Hayes Ave,Crescent City, FL, 32112",29.41969,-81.646208,63
+64,106 Krantz Rd,"Palatka, FL, 32177","106 Krantz Rd,Palatka, FL, 32177",29.591864,-81.696688,64
+65,208 S Hayes Ave,"Crescent City, FL, 32112","208 S Hayes Ave,Crescent City, FL, 32112",29.41805,-81.649758,65
+66,146 Floridian Club Rd,"Welaka, FL, 32193","146 Floridian Club Rd,Welaka, FL, 32193",29.493022,-81.678326,66
+67,143 Ramona Rd,"Crescent City, FL, 32112","143 Ramona Rd,Crescent City, FL, 32112",29.431464,-81.659286,67
+68,71 Carefree Dr,"Welaka, FL, 32193","71 Carefree Dr,Welaka, FL, 32193",29.491647,-81.677784,68
+69,112 Floridian Club Ln,"Welaka, FL, 32193","112 Floridian Club Ln,Welaka, FL, 32193",29.493409,-81.677394,69
+70,776 National Forest Rd 75G,"Palatka, FL, 32177","776 National Forest Rd 75G,Palatka, FL, 32177",29.418514,-81.657119,70
+71,103 St Johns Ct,"Satsuma, FL, 32189","103 St Johns Ct,Satsuma, FL, 32189",29.577648,-81.677106,71
+72,114 Shaffer Ave,"Crescent City, FL, 32112","114 Shaffer Ave,Crescent City, FL, 32112",29.419452,-81.646452,72
+73,113 Floridian Club Ln,"Welaka, FL, 32193","113 Floridian Club Ln,Welaka, FL, 32193",29.493087,-81.67727,73
+74,147 Ramona Rd,"Crescent City, FL, 32112","147 Ramona Rd,Crescent City, FL, 32112",29.43138,-81.65884,74
+75,119 Camp George Rd,"Crescent City, FL, 32112","119 Camp George Rd,Crescent City, FL, 32112",29.421783,-81.646933,75
+76,103 Floridian Club Ln,"Welaka, FL, 32193","103 Floridian Club Ln,Welaka, FL, 32193",29.492784,-81.676794,76
+77,141 Floridian Club Rd,"Welaka, FL, 32193","141 Floridian Club Rd,Welaka, FL, 32193",29.492314,-81.677596,77
+78,133 Floridian Club Rd,"Welaka, FL, 32193","133 Floridian Club Rd,Welaka, FL, 32193",29.491989,-81.676838,78
+79,207 S Hayes Ave,"Crescent City, FL, 32112","207 S Hayes Ave,Crescent City, FL, 32112",29.417847,-81.649327,79
+80,214 Park Ave,"Crescent City, FL, 32112","214 Park Ave,Crescent City, FL, 32112",29.418755,-81.64626,80
+81,110 Ludwig Ave,"Crescent City, FL, 32112","110 Ludwig Ave,Crescent City, FL, 32112",29.418083,-81.645734,81
+82,140 Nortons Fish Camp Rd,"Satsuma, FL, 32189","140 Nortons Fish Camp Rd,Satsuma, FL, 32189",29.513877,-81.676122,82
+83,144 Floridian Club Rd,"Welaka, FL, 32193","144 Floridian Club Rd,Welaka, FL, 32193",29.492765,-81.677743,83
+84,110 Poinsettia Dr,"Satsuma, FL, 32189","110 Poinsettia Dr,Satsuma, FL, 32189",29.580096,-81.675995,84
+85,202 S Hayes Ave,"Crescent City, FL, 32112","202 S Hayes Ave,Crescent City, FL, 32112",29.418677,-81.648986,85
+86,115 Shaffer Ave,"Crescent City, FL, 32112","115 Shaffer Ave,Crescent City, FL, 32112",29.419039,-81.646267,86
+87,774 National Forest Rd 75G,"Palatka, FL, 32177","774 National Forest Rd 75G,Palatka, FL, 32177",29.418961,-81.656825,87
+88,76 Carefree Dr,"Welaka, FL, 32193","76 Carefree Dr,Welaka, FL, 32193",29.491065,-81.677995,88
+89,101 Floridian Club Ln,"Welaka, FL, 32193","101 Floridian Club Ln,Welaka, FL, 32193",29.492521,-81.676697,89
+90,151 Ramona Rd,"Crescent City, FL, 32112","151 Ramona Rd,Crescent City, FL, 32112",29.431102,-81.658411,90
+91,25 Scott St,"Welaka, FL, 32193","25 Scott St,Welaka, FL, 32193",29.490368,-81.676694,91
+92,216 Park Ave,"Crescent City, FL, 32112","216 Park Ave,Crescent City, FL, 32112",29.41875,-81.646512,92
+93,111 St Johns Ct,"Satsuma, FL, 32189","111 St Johns Ct,Satsuma, FL, 32189",29.577171,-81.677489,93
+94,107 Shell Trl,"Satsuma, FL, 32189","107 Shell Trl,Satsuma, FL, 32189",29.517356,-81.676427,94
+95,114 N Hubers Fish Camp Rd,"Crescent City, FL, 32112","114 N Hubers Fish Camp Rd,Crescent City, FL, 32112",29.43104,-81.64659,95
+96,82 Carefree Dr,"Welaka, FL, 32193","82 Carefree Dr,Welaka, FL, 32193",29.490348,-81.67843,96
+97,108 Floridian Club Ln,"Welaka, FL, 32193","108 Floridian Club Ln,Welaka, FL, 32193",29.493415,-81.676805,97
+98,92 Happiness Dr,"Welaka, FL, 32193","92 Happiness Dr,Welaka, FL, 32193",29.491292,-81.678678,98
+99,112 Happiness Dr,"Welaka, FL, 32193","112 Happiness Dr,Welaka, FL, 32193",29.490764,-81.679359,99
+100,132 Nortons Fish Camp Rd,"Satsuma, FL, 32189","132 Nortons Fish Camp Rd,Satsuma, FL, 32189",29.514938,-81.676273,100
+101,32 Scott St,"Welaka, FL, 32193","32 Scott St,Welaka, FL, 32193",29.491189,-81.67647,101
+102,41 Scott St,"Welaka, FL, 32193","41 Scott St,Welaka, FL, 32193",29.490418,-81.677249,102
+103,118 Poinsettia Dr,"Satsuma, FL, 32189","118 Poinsettia Dr,Satsuma, FL, 32189",29.579843,-81.676438,103
+104,6 Hockey Dr,"Welaka, FL, 32193","6 Hockey Dr,Welaka, FL, 32193",29.490619,-81.675696,104
+105,89 Happiness Dr,"Welaka, FL, 32193","89 Happiness Dr,Welaka, FL, 32193",29.490868,-81.678857,105
+106,73 Carefree Dr,"Welaka, FL, 32193","73 Carefree Dr,Welaka, FL, 32193",29.491461,-81.677833,106
+107,101 St Johns Ct,"Satsuma, FL, 32189","101 St Johns Ct,Satsuma, FL, 32189",29.577769,-81.677009,107
+108,100 Deans Creek Trl,"Palatka, FL, 32177","100 Deans Creek Trl,Palatka, FL, 32177",29.490274,-81.796465,108
+109,69 Carefree Dr,"Welaka, FL, 32193","69 Carefree Dr,Welaka, FL, 32193",29.491607,-81.677431,109
+110,113 Happiness Dr,"Welaka, FL, 32193","113 Happiness Dr,Welaka, FL, 32193",29.490624,-81.679438,110
+111,103 Shell Trl,"Satsuma, FL, 32189","103 Shell Trl,Satsuma, FL, 32189",29.516757,-81.676264,111
+112,139 Floridian Club Rd,"Welaka, FL, 32193","139 Floridian Club Rd,Welaka, FL, 32193",29.492204,-81.677343,112
+113,130 Paradise Dr ,"Welaka, FL, 32193","130 Paradise Dr ,Welaka, FL, 32193",29.492256,-81.679236,113
+114,67 Carefree Dr,"Welaka, FL, 32193","67 Carefree Dr,Welaka, FL, 32193",29.491384,-81.677338,114
+115,111 Happiness Dr,"Welaka, FL, 32193","111 Happiness Dr,Welaka, FL, 32193",29.490917,-81.679317,115
+116,149 Floridian Club Rd,"Welaka, FL, 32193","149 Floridian Club Rd,Welaka, FL, 32193",29.492767,-81.678843,116
+117,105 Tall Palms Ln,"Welaka, FL, 32193","105 Tall Palms Ln,Welaka, FL, 32193",29.493187,-81.677754,117
+118,108 Happiness Dr,"Welaka, FL, 32193","108 Happiness Dr,Welaka, FL, 32193",29.491306,-81.679181,118
+119,161 Moonlite Dr ,"Welaka, FL, 32193","161 Moonlite Dr ,Welaka, FL, 32193",29.492057,-81.680637,119
+120,166 Moonlite Dr,"Welaka, FL, 32193","166 Moonlite Dr,Welaka, FL, 32193",29.492386,-81.680917,120
+121,136 Paradise Dr,"Welaka, FL, 32193","136 Paradise Dr,Welaka, FL, 32193",29.492302,-81.679792,121
+122,1163 County Road 309,"Crescent City, FL, 32112","1163 County Road 309,Crescent City, FL, 32112",29.423885,-81.646465,122
+123,107 Lucyrilla Ln,"Palatka, FL, 32177","107 Lucyrilla Ln,Palatka, FL, 32177",29.601576,-81.698108,123
+124,79 Carefree Dr,"Welaka, FL, 32193","79 Carefree Dr,Welaka, FL, 32193",29.490707,-81.678221,124
+125,211 Woodbury Trl ,"Satsuma, FL, 32189","211 Woodbury Trl ,Satsuma, FL, 32189",29.589766,-81.682325,125
+126,35 Scott St,"Satsuma, FL, 32189","35 Scott St,Satsuma, FL, 32189",29.491173,-81.676817,126
+127,150 Paradise Dr ,"Welaka, FL, 32193","150 Paradise Dr ,Welaka, FL, 32193",29.490568,-81.680735,127
+128,200 Sportsman Dr,"Welaka, FL, 32193","200 Sportsman Dr,Welaka, FL, 32193",29.492569,-81.682869,128
+129,119 Paradise Dr,"Welaka, FL, 32193","119 Paradise Dr,Welaka, FL, 32193",29.490931,-81.680031,129
+130,205 Sportsman Dr,"Welaka, FL, 32193","205 Sportsman Dr,Welaka, FL, 32193",29.492357,-81.683433,130
+131,2300 S State Rd 19,"Palatka, FL, 32177","2300 S State Rd 19,Palatka, FL, 32177",29.49459,-81.767813,131
+132,190 Sportsman Dr,"Welaka, FL, 32193","190 Sportsman Dr,Welaka, FL, 32193",29.491927,-81.681958,132
+133,199 Sportsman Dr,"Welaka, FL, 32193","199 Sportsman Dr,Welaka, FL, 32193",29.492535,-81.6827,133
+134,114 Happiness Dr,"Welaka, FL, 32193","114 Happiness Dr,Welaka, FL, 32193",29.490498,-81.679522,134
+135,215 Woodbury Trl ,"Satsuma, FL, 32189","215 Woodbury Trl ,Satsuma, FL, 32189",29.58947,-81.682003,135
+136,191 Sportsman Dr,"Welaka, FL, 32193","191 Sportsman Dr,Welaka, FL, 32193",29.492022,-81.681799,136
+137,74 Carefree Dr,"Welaka, FL, 32193","74 Carefree Dr,Welaka, FL, 32193",29.491335,-81.677906,137
+138,154 Moonlite Dr,"Welaka, FL, 32193","154 Moonlite Dr,Welaka, FL, 32193",29.491161,-81.681107,138
+139,137 Paradise Dr,"Welaka, FL, 32193","137 Paradise Dr,Welaka, FL, 32193",29.492171,-81.679817,139
+140,155 Moonlite Dr,"Welaka, FL, 32193","155 Moonlite Dr,Welaka, FL, 32193",29.491297,-81.681074,140
+141,42 Scott St,"Welaka, FL, 32193","42 Scott St,Welaka, FL, 32193",29.490323,-81.677234,141
+142,125 Woodbury Trl,"Satsuma, FL, 32189","125 Woodbury Trl,Satsuma, FL, 32189",29.588904,-81.681099,142
+143,108 National Forest Rd 29,"Palatka, FL, 32177","108 National Forest Rd 29,Palatka, FL, 32177",29.424224,-81.665073,143
+144,212 Sportsman Dr,"Welaka, FL, 32193","212 Sportsman Dr,Welaka, FL, 32193",29.491466,-81.682905,144
+145,128 Woodbury Trl,"Satsuma, FL, 32189","128 Woodbury Trl,Satsuma, FL, 32189",29.590605,-81.680876,145
+146,88 Happiness Dr,"Welaka, FL, 32193","88 Happiness Dr,Welaka, FL, 32193",29.490724,-81.679014,146
+147,201 Sportsman Dr,"Welaka, FL, 32193","201 Sportsman Dr,Welaka, FL, 32193",29.492629,-81.683003,147
+148,219 Woodbury Trl Unit 1,"Welaka, FL, 32193","219 Woodbury Trl Unit 1,Welaka, FL, 32193",29.589238,-81.681657,148
+149,146 Paradise Dr,"Welaka, FL, 32193","146 Paradise Dr,Welaka, FL, 32193",29.490983,-81.680463,149
+150,101 Happiness Dr,"Welaka, FL, 32193","101 Happiness Dr,Welaka, FL, 32193",29.492118,-81.678652,150
+151,170 Moonlite Dr,"Welaka, FL, 32193","170 Moonlite Dr,Welaka, FL, 32193",29.491959,-81.681172,151
+152,70 Carefree Dr,"Welaka, FL, 32193","70 Carefree Dr,Welaka, FL, 32193",29.491718,-81.677603,152
+153,216 Sportsman Dr ,"Welaka, FL, 32193","216 Sportsman Dr ,Welaka, FL, 32193",29.490985,-81.682586,153
+154,171 Moonlite Dr,"Welaka, FL, 32193","171 Moonlite Dr,Welaka, FL, 32193",29.491846,-81.681226,154
+155,168 Moonlite Dr,"Welaka, FL, 32193","168 Moonlite Dr,Welaka, FL, 32193",29.492181,-81.681074,155
+156,147 Paradise Dr,"Welaka, FL, 32193","147 Paradise Dr,Welaka, FL, 32193",29.490855,-81.680571,156
+157,219 Sportsman Dr,"Welaka, FL, 32193","219 Sportsman Dr,Welaka, FL, 32193",29.490765,-81.682272,157
+158,128 Hayes Ave,"Crescent City, FL, 32112","128 Hayes Ave,Crescent City, FL, 32112",29.419748,-81.647867,158
+159,323 E Buffalo Bluff Rd,"Satsuma, FL, 32189","323 E Buffalo Bluff Rd,Satsuma, FL, 32189",29.58408,-81.678876,159
+160,137 Floridian Club Rd,"Welaka, FL, 32193","137 Floridian Club Rd,Welaka, FL, 32193",29.492098,-81.677107,160
+161,124 Krantz Rd,"Palatka, FL, 32177","124 Krantz Rd,Palatka, FL, 32177",29.593704,-81.697375,161
+162,78 Carefree Dr,"Welaka, FL, 32193","78 Carefree Dr,Welaka, FL, 32193",29.490828,-81.678147,162
+163,26 Scott St,"Welaka, FL, 32193","26 Scott St,Welaka, FL, 32193",29.490499,-81.676604,163
+164,130 Hicks Ave,"Crescent City, FL, 32112","130 Hicks Ave,Crescent City, FL, 32112",29.416812,-81.64744,164
+165,39 Scott St,"Welaka, FL, 32193","39 Scott St,Welaka, FL, 32193",29.490721,-81.677016,165
+166,100 Happiness Dr,"Welaka, FL, 32193","100 Happiness Dr,Welaka, FL, 32193",29.492127,-81.67849,166
+167,126 Krantz Rd,"Palatka, FL, 32177","126 Krantz Rd,Palatka, FL, 32177",29.594391,-81.698454,167
+168,116 Krantz Rd,"Palatka, FL, 32177","116 Krantz Rd,Palatka, FL, 32177",29.592745,-81.697352,168
+169,114 Rogers Ln ,"Palatka, FL, 32177","114 Rogers Ln ,Palatka, FL, 32177",29.584702,-81.696764,169
+170,221 Deans Creek Rd,"Palatka, FL, 32177","221 Deans Creek Rd,Palatka, FL, 32177",29.489556,-81.794922,170
+171,107 St Johns Ct,"Satsuma, FL, 32189","107 St Johns Ct,Satsuma, FL, 32189",29.577372,-81.677336,171
+172,224 Deans Creek Rd,"Palatka, FL, 32177","224 Deans Creek Rd,Palatka, FL, 32177",29.489779,-81.79469,172
+173,105 St Johns Ct,"Satsuma, FL, 32189","105 St Johns Ct,Satsuma, FL, 32189",29.577556,-81.67722,173
+174,152 Hicks Ave,"Crescent City, FL, 32112","152 Hicks Ave,Crescent City, FL, 32112",29.417675,-81.65,174
+175,319 E Buffalo Bluff,"Satsuma, FL, 32189","319 E Buffalo Bluff,Satsuma, FL, 32189",29.583587,-81.678894,175
+176,182 Sportsman Dr,"Welaka, FL, 32193","182 Sportsman Dr,Welaka, FL, 32193",29.491478,-81.68227,176
+177,192 Sportsman Dr,"Welaka, FL, 32193","192 Sportsman Dr,Welaka, FL, 32193",29.492153,-81.681805,177
+178,140 Floridian Club Rd,"Welaka, FL, 32193","140 Floridian Club Rd,Welaka, FL, 32193",29.492531,-81.677254,178
+179,66 Carefree Dr,"Welaka, FL, 32193","66 Carefree Dr,Welaka, FL, 32193",29.49128,-81.677429,179
+180,108 Cheryl Ln,"Crescent City, FL, 32112","108 Cheryl Ln,Crescent City, FL, 32112",29.417401,-81.645455,180
+181,150 Nortons FIsh Camp Rd,"Satsuma, FL, 32189","150 Nortons FIsh Camp Rd,Satsuma, FL, 32189",29.512497,-81.676131,181
+182,119 Ludwig Ave,"Crescent City, FL, 32112","119 Ludwig Ave,Crescent City, FL, 32112",29.417644,-81.646971,182
+183,126 Hicks Ave,"Crescent City, FL, 32112","126 Hicks Ave,Crescent City, FL, 32112",29.416718,-81.647152,183
+184,77 Carefree Dr,"Welaka, FL, 32193","77 Carefree Dr,Welaka, FL, 32193",29.490958,-81.6781,184
+185,106 Floridian Club Ln,"Welaka, FL, 32193","106 Floridian Club Ln,Welaka, FL, 32193",29.493489,-81.67654,185
+186,156 Moonlite Dr,"Welaka, FL, 32193","156 Moonlite Dr,Welaka, FL, 32193",29.491448,-81.680995,186
+187,128 Paradise Dr,"Welaka, FL, 32193","128 Paradise Dr,Welaka, FL, 32193",29.492105,-81.679412,187
+188,91 Happiness Dr,"Welaka, FL, 32193","91 Happiness Dr,Welaka, FL, 32193",29.491061,-81.678748,188
+189,145 Floridian Club Rd,"Welaka, FL, 32193","145 Floridian Club Rd,Welaka, FL, 32193",29.492513,-81.678067,189
+190,147 Floridian Club Rd,"Welaka, FL, 32193","147 Floridian Club Rd,Welaka, FL, 32193",29.492601,-81.67833,190
+191,142 Nortons FIsh Camp Rd,"Satsuma, FL, 32189","142 Nortons FIsh Camp Rd,Satsuma, FL, 32189",29.513642,-81.67646,191
+192,318 Peniel Church Rd,"Palatka, FL, 32177","318 Peniel Church Rd,Palatka, FL, 32177",29.603243,-81.697288,192
+193,141 Paradise Dr,"Welaka, FL, 32193","141 Paradise Dr,Welaka, FL, 32193",29.491661,-81.680078,193
+194,148 Hicks Ave,"Crescent City, FL, 32112","148 Hicks Ave,Crescent City, FL, 32112",29.417591,-81.649615,194
+195,202 Sportsman Dr,"Welaka, FL, 32193","202 Sportsman Dr,Welaka, FL, 32193",29.492702,-81.683143,195
+196,162 Moonlite Dr,"Welaka, FL, 32193","162 Moonlite Dr,Welaka, FL, 32193",29.492235,-81.680463,196
+197,164 Moonlite Dr,"Welaka, FL, 32193","164 Moonlite Dr,Welaka, FL, 32193",29.492357,-81.680629,197
+198,40 Scott St,"Welaka, FL, 32193","40 Scott St,Welaka, FL, 32193",29.490554,-81.677127,198
+199,207 Sportsman Dr,"Welaka, FL, 32193","207 Sportsman Dr,Welaka, FL, 32193",29.492107,-81.683233,199
+200,142 Paradise Dr,"Welaka, FL, 32193","142 Paradise Dr,Welaka, FL, 32193",29.49152,-81.68015,200
+201,103 Tall Palms Ln ,"Welaka, FL, 32193","103 Tall Palms Ln ,Welaka, FL, 32193",29.493106,-81.678053,201
+202,142 Floridian Club Rd,"Welaka, FL, 32193","142 Floridian Club Rd,Welaka, FL, 32193",29.49263,-81.677489,202
+203,33 Scott St,"Welaka, FL, 32193","33 Scott St,Welaka, FL, 32193",29.491291,-81.676611,203
+204,176 Moonlite Dr,"Welaka, FL, 32193","176 Moonlite Dr,Welaka, FL, 32193",29.491207,-81.681564,204
+205,138 Paradise Dr,"Welaka, FL, 32193","138 Paradise Dr,Welaka, FL, 32193",29.492061,-81.679925,205
+206,109 Happiness Dr,"Welaka, FL, 32193","109 Happiness Dr,Welaka, FL, 32193",29.491131,-81.679192,206
+207,197 Sportsman Dr,"Welaka, FL, 32193","197 Sportsman Dr,Welaka, FL, 32193",29.492449,-81.682412,207
+208,27 Scott St,"Welaka, FL, 32193","27 Scott St,Welaka, FL, 32193",29.490627,-81.676527,208
+209,143 Floridian Club Rd,"Welaka, FL, 32193","143 Floridian Club Rd,Welaka, FL, 32193",29.49241,-81.677864,209
+210,138 Hicks Ave,"Crescent City, FL, 32112","138 Hicks Ave,Crescent City, FL, 32112",29.417124,-81.648367,210
+211,123 Hicks Ave,"Crescent City, FL, 32112","123 Hicks Ave,Crescent City, FL, 32112",29.416153,-81.646653,211
+212,193 Sportsman Dr,"Welaka, FL, 32193","193 Sportsman Dr,Welaka, FL, 32193",29.49227,-81.681881,212
+213,96 Happiness Dr,"Welaka, FL, 32193","96 Happiness Dr,Welaka, FL, 32193",29.491702,-81.678352,213
+214,203 Sportsman Dr,"Welaka, FL, 32193","203 Sportsman Dr,Welaka, FL, 32193",29.492731,-81.683391,214
+215,122 Paradise Dr,"Welaka, FL, 32193","122 Paradise Dr,Welaka, FL, 32193",29.491307,-81.679833,215
+216,62 Carefree Dr,"Welaka, FL, 32193","62 Carefree Dr,Welaka, FL, 32193",29.490783,-81.677713,216
+217,117 St Johns Ct,"Satsuma, FL, 32189","117 St Johns Ct,Satsuma, FL, 32189",29.576875,-81.677745,217
+218,125 Paradise Dr,"Welaka, FL, 32193","125 Paradise Dr,Welaka, FL, 32193",29.491654,-81.679694,218
+219,215 Sportsman Dr,"Welaka, FL, 32193","215 Sportsman Dr,Welaka, FL, 32193",29.491132,-81.68268,219
+220,217 Sportsman Dr,"Welaka, FL, 32193","217 Sportsman Dr,Welaka, FL, 32193",29.490856,-81.682449,220
+221,119 Ramona Rd,"Crescent City, FL, 32112","119 Ramona Rd,Crescent City, FL, 32112",29.43266,-81.661728,221
+222,101 National Forest Rd 29,"Palatka, FL, 32134","101 National Forest Rd 29,Palatka, FL, 32134",29.424819,-81.666584,222
+223,118 Hicks Ave,"Crescent City, FL, 32112","118 Hicks Ave,Crescent City, FL, 32112",29.416321,-81.646035,223
+224,127 St Johns Ct,"Satsuma, FL, 32189","127 St Johns Ct,Satsuma, FL, 32189",29.576298,-81.67819,224
+225,139 Paradise Dr,"Welaka, FL, 32193","139 Paradise Dr,Welaka, FL, 32193",29.491934,-81.679971,225
+226,160 Moonlite Dr,"Welaka, FL, 32193","160 Moonlite Dr,Welaka, FL, 32193",29.491935,-81.68075,226
+227,133 Paradise Dr,"Welaka, FL, 32193","133 Paradise Dr,Welaka, FL, 32193",29.492569,-81.679535,227
+228,113 St Johns Ct,"Satsuma, FL, 32189","113 St Johns Ct,Satsuma, FL, 32189",29.577097,-81.677547,228
+229,175 Moonlite Dr,"Welaka, FL, 32193","175 Moonlite Dr,Welaka, FL, 32193",29.491329,-81.681475,229
+230,98 Happiness Dr,"Welaka, FL, 32193","98 Happiness Dr,Welaka, FL, 32193",29.492019,-81.678276,230
+231,184 Sportsman Dr,"Welaka, FL, 32193","184 Sportsman Dr,Welaka, FL, 32193",29.491719,-81.68244,231
+232,350 Peniel Church Rd,"Palatka, FL, 32177","350 Peniel Church Rd,Palatka, FL, 32177",29.60082,-81.698491,232
+233,142 Sesame St,"Palatka, FL, 32177","142 Sesame St,Palatka, FL, 32177",29.590465,-81.696354,233
+234,60 Carefree Dr,"Welaka, FL, 32193","60 Carefree Dr,Welaka, FL, 32193",29.490594,-81.677818,234
+235,63 Carefree Dr,"Welaka, FL, 32193","63 Carefree Dr,Welaka, FL, 32193",29.490985,-81.677609,235
+236,30 Scott St,"Welaka, FL, 32193","30 Scott St,Welaka, FL, 32193",29.49106,-81.67627,236
+237,205 Hermits Dr,"Satsuma, FL, 32189","205 Hermits Dr,Satsuma, FL, 32189",29.579955,-81.674078,237
+238,156 Beechers Point Dr,"Welaka, FL, 32193","156 Beechers Point Dr,Welaka, FL, 32193",29.467577,-81.683806,238
+239,357 E Buffalo Bluff Rd,"Satsuma, FL, 32189","357 E Buffalo Bluff Rd,Satsuma, FL, 32189",29.587758,-81.680169,239
+240,37 Scott St,"Welaka, FL, 32193","37 Scott St,Welaka, FL, 32193",29.491009,-81.676879,240
+241,259 Hermits Dr,"Satsuma, FL, 32189","259 Hermits Dr,Satsuma, FL, 32189",29.580075,-81.676896,241
+242,162 Beechers Point Dr,"Welaka, FL, 32193","162 Beechers Point Dr,Welaka, FL, 32193",29.467475,-81.68436,242
+243,209 Hermits Dr,"Satsuma, FL, 32189","209 Hermits Dr,Satsuma, FL, 32189",29.580111,-81.674157,243
+244,211 Hermits Dr,"Satsuma, FL, 32189","211 Hermits Dr,Satsuma, FL, 32189",29.58036,-81.674349,244
+245,137 St Johns Ct,"Satsuma, FL, 32189","137 St Johns Ct,Satsuma, FL, 32189",29.57572,-81.678642,245
+246,110 W Palm Ave,"Crescent City, FL, 32112","110 W Palm Ave,Crescent City, FL, 32112",29.416947,-81.645451,246
+247,140 Paradise Dr,"Welaka, FL, 32193","140 Paradise Dr,Welaka, FL, 32193",29.491802,-81.680017,247
+248,213 Sportsman Dr,"Welaka, FL, 32193","213 Sportsman Dr,Welaka, FL, 32193",29.491257,-81.682773,248
+249,142 Beechers Point Dr,"Welaka, FL, 32193","142 Beechers Point Dr,Welaka, FL, 32193",29.467863,-81.682777,249
+250,778 National Forest Dr 75G,"Palatka, FL, 32177","778 National Forest Dr 75G,Palatka, FL, 32177",29.419061,-81.657073,250
+251,122 Shaffer Ave,"Crescent City, FL, 32112","122 Shaffer Ave,Crescent City, FL, 32112",29.419344,-81.647245,251
+252,173 Moonlite Dr,"Welaka, FL, 32193","173 Moonlite Dr,Welaka, FL, 32193",29.49159,-81.681328,252
+253,103 Happiness Dr,"Welaka, FL, 32193","103 Happiness Dr,Welaka, FL, 32193",29.491879,-81.678902,253
+254,126 Paradise Dr,"Welaka, FL, 32193","126 Paradise Dr,Welaka, FL, 32193",29.491859,-81.679582,254
+255,158 Moonlite Dr,"Welaka, FL, 32193","158 Moonlite Dr,Welaka, FL, 32193",29.491735,-81.680818,255
+256,9 Hockey Dr,"Welaka, FL, 32193","9 Hockey Dr,Welaka, FL, 32193",29.490205,-81.675949,256
+257,144 Hicks Ave,"Crescent City, FL, 32112","144 Hicks Ave,Crescent City, FL, 32112",29.417357,-81.649033,257
+258,136 Beechers Point Dr,"Welaka, FL, 32193","136 Beechers Point Dr,Welaka, FL, 32193",29.468103,-81.68222,258
+259,172 Moonnlite Dr,"Welaka, FL, 32193","172 Moonnlite Dr,Welaka, FL, 32193",29.491707,-81.681289,259
+260,121 Teronda Rd,"Welaka, FL, 32193","121 Teronda Rd,Welaka, FL, 32193",29.465373,-81.676323,260
+261,5 Hockey Dr,"Welaka, FL, 32193","5 Hockey Dr,Welaka, FL, 32193",29.490818,-81.675687,261
+262,148 Floridian Club Rd,"Welaka, FL, 32193","148 Floridian Club Rd,Welaka, FL, 32193",29.492881,-81.678546,262
+263,108 William Bartram Dr,"Crescent City, FL, 32112","108 William Bartram Dr,Crescent City, FL, 32112",29.431094,-81.651037,263
+264,124 Paradise Dr,"Welaka, FL, 32193","124 Paradise Dr,Welaka, FL, 32193",29.491499,-81.679722,264
+265,87 Happiness Dr,"Welaka, FL, 32193","87 Happiness Dr,Welaka, FL, 32193",29.490547,-81.679008,265
+266,163 Beechers Point Dr,"Welaka, FL, 32193","163 Beechers Point Dr,Welaka, FL, 32193",29.467006,-81.684311,266
+267,1 Palmetto St,"Welaka, FL, 32193","1 Palmetto St,Welaka, FL, 32193",29.479228,-81.674704,267
+268,106 William Bartram Dr,"Crescent City, FL, 32112","106 William Bartram Dr,Crescent City, FL, 32112",29.431026,-81.650755,268
+269,154 Beechers Point Dr,"Welaka, FL, 32193","154 Beechers Point Dr,Welaka, FL, 32193",29.467618,-81.683619,269
+270,124 Beechers Point Dr,"Welaka, FL, 32193","124 Beechers Point Dr,Welaka, FL, 32193",29.468565,-81.68129,270
+271,133 Buchanan Cir,"Satsuma, FL, 32189","133 Buchanan Cir,Satsuma, FL, 32189",29.573121,-81.678761,271
+272,809 Front St ,"Welaka, FL, 32193","809 Front St ,Welaka, FL, 32193",29.476583,-81.674552,272
+273,203 Woodbury Trl,"Satsuma, FL, 32189","203 Woodbury Trl,Satsuma, FL, 32189",29.590231,-81.682709,273
+274,1235 County Road 309,"Crescent City, FL, 32112","1235 County Road 309,Crescent City, FL, 32112",29.41497,-81.645136,274
+275,146 Hicks Ave,"Crescent City, FL, 32112","146 Hicks Ave,Crescent City, FL, 32112",29.417474,-81.649281,275
+276,29 Scott St,"Welaka, FL, 32193","29 Scott St,Welaka, FL, 32193",29.49086,-81.676427,276
+277,227 Hermits Dr,"Satsuma, FL, 32189","227 Hermits Dr,Satsuma, FL, 32189",29.581166,-81.675056,277
+278,116 William Bartram Dr,"Crescent City, FL, 32112","116 William Bartram Dr,Crescent City, FL, 32112",29.431178,-81.652029,278
+279,186 Sportsman Dr,"Welaka, FL, 32193","186 Sportsman Dr,Welaka, FL, 32193",29.49196,-81.682556,279
+280,135 Paradise Dr,"Welaka, FL, 32193","135 Paradise Dr,Welaka, FL, 32193",29.492475,-81.679767,280
+281,209 Sportsman Dr,"Welaka, FL, 32193","209 Sportsman Dr,Welaka, FL, 32193",29.491887,-81.683103,281
+282,210 Sportsman Dr,"Welaka, FL, 32193","210 Sportsman Dr,Welaka, FL, 32193",29.491737,-81.683064,282
+283,208 Sportsman Dr,"Welaka, FL, 32193","208 Sportsman Dr,Welaka, FL, 32193",29.491987,-81.683203,283
+284,149 Buchanan Cir,"Satsuma, FL, 32189","149 Buchanan Cir,Satsuma, FL, 32189",29.574824,-81.679123,284
+285,229 Sportsman Dr,"Welaka, FL, 32193","229 Sportsman Dr,Welaka, FL, 32193",29.489991,-81.68088,285
+286,1075 Front St,"Welaka, FL, 32193","1075 Front St,Welaka, FL, 32193",29.465311,-81.673759,286
+287,104 River Bend Ct Bldg A,"Welaka, FL, 32193","104 River Bend Ct Bldg A,Welaka, FL, 32193",29.466074,-81.684747,287
+288,104 William Bartram Dr,"Crescent City, FL, 32112","104 William Bartram Dr,Crescent City, FL, 32112",29.430825,-81.650416,288
+289,28 Scott St,"Welaka, FL, 32193","28 Scott St,Welaka, FL, 32193",29.490747,-81.676496,289
+290,104 National Forest Rd 29,"Palatka, FL, 32177","104 National Forest Rd 29,Palatka, FL, 32177",29.424449,-81.666241,290
+291,325 E Buffalo Bluff Rd,"Satsuma, FL, 32189","325 E Buffalo Bluff Rd,Satsuma, FL, 32189",29.584461,-81.678974,291
+292,251 Hermits Dr,"Satsuma, FL, 32189","251 Hermits Dr,Satsuma, FL, 32189",29.580321,-81.676415,292
+293,122 William Bartram Dr,"Crescent City, FL, 32112","122 William Bartram Dr,Crescent City, FL, 32112",29.431114,-81.652602,293
+294,118 Paradise Dr,"Welaka, FL, 32193","118 Paradise Dr,Welaka, FL, 32193",29.49078,-81.68015,294
+295,120 Rogers Ln,"Palatka, FL, 32177","120 Rogers Ln,Palatka, FL, 32177",29.583809,-81.696871,295
+296,108 Dexter Ct,"Crescent City, FL, 32112","108 Dexter Ct,Crescent City, FL, 32112",29.432488,-81.651853,296
+297,575 Caravelle Farms Rd,"Palatka, FL, 32177","575 Caravelle Farms Rd,Palatka, FL, 32177",29.50941,-81.718873,297
+298,223 River Bend Pl Bldg D,"Welaka, FL, 32193","223 River Bend Pl Bldg D,Welaka, FL, 32193",29.465325,-81.684978,298
+299,104 Cameilla Dr,"Satsuma, FL, 32189","104 Cameilla Dr,Satsuma, FL, 32189",29.580619,-81.675691,299
+300,133 River Bend Pl Bldg E,"Welaka, FL, 32193","133 River Bend Pl Bldg E,Welaka, FL, 32193",29.465135,-81.684367,300
+301,223 Hermits Dr,"Satsuma, FL, 32189","223 Hermits Dr,Satsuma, FL, 32189",29.580944,-81.674735,301
+302,112 Point South Dr,"Welaka, FL, 32193","112 Point South Dr,Welaka, FL, 32193",29.466673,-81.681436,302
+303,151 Moonlite Dr,"Welaka, FL, 32193","151 Moonlite Dr,Welaka, FL, 32193",29.490761,-81.681325,303
+304,1013 Front St,"Welaka, FL, 32193","1013 Front St,Welaka, FL, 32193",29.473975,-81.675325,304
+305,117 River Bend Pl Bldg C,"Welaka, FL, 32193","117 River Bend Pl Bldg C,Welaka, FL, 32193",29.465583,-81.684845,305
+306,104 W Palm Ave,"Crescent City, FL, 32112","104 W Palm Ave,Crescent City, FL, 32112",29.41678,-81.6448,306
+307,116 River Bend Pl Bldg C,"Welaka, FL, 32193","116 River Bend Pl Bldg C,Welaka, FL, 32193",29.46562,-81.684788,307
+308,248 Whitney St,"Satsuma, FL, 32189","248 Whitney St,Satsuma, FL, 32189",29.538875,-81.695393,308
+309,309 Saratoga Dr,"Satsuma, FL, 32189","309 Saratoga Dr,Satsuma, FL, 32189",29.529819,-81.683128,309
+310,123 St Johns Ct,"Satsuma, FL, 32189","123 St Johns Ct,Satsuma, FL, 32189",29.576573,-81.678152,310
+311,113 River Bend Pl Bldg B,"Welaka, FL, 32193","113 River Bend Pl Bldg B,Welaka, FL, 32193",29.465693,-81.684579,311
+312,129 River Bend Pl Bldg E,"Welaka, FL, 32193","129 River Bend Pl Bldg E,Welaka, FL, 32193",29.465115,-81.684644,312
+313,164 Beechers Point Dr,"Welaka, FL, 32193","164 Beechers Point Dr,Welaka, FL, 32193",29.467464,-81.684552,313
+314,94 Happiness Dr,"Welaka, FL, 32193","94 Happiness Dr,Welaka, FL, 32193",29.491437,-81.678534,314
+315,143 Paradise Dr,"Welaka, FL, 32193","143 Paradise Dr,Welaka, FL, 32193",29.491392,-81.680222,315
+316,180 Sportsman Dr,"Welaka, FL, 32193","180 Sportsman Dr,Welaka, FL, 32193",29.491248,-81.682037,316
+317,206 Sportsman Dr,"Welaka, FL, 32193","206 Sportsman Dr,Welaka, FL, 32193",29.492221,-81.683368,317
+318,204 Sportsman Dr,"Welaka, FL, 32193","204 Sportsman Dr,Welaka, FL, 32193",29.492509,-81.683404,318
+319,162 Mount Royal Ave,"Crescent City, FL, 32112","162 Mount Royal Ave,Crescent City, FL, 32112",29.432902,-81.650465,319
+320,188 Sportsman Dr,"Welaka, FL, 32193","188 Sportsman Dr,Welaka, FL, 32193",29.491974,-81.68225,320
+321,232 Sportsman Dr,"Welaka, FL, 32193","232 Sportsman Dr,Welaka, FL, 32193",29.489967,-81.680378,321
+322,80 Carefree Dr,"Welaka, FL, 32193","80 Carefree Dr,Welaka, FL, 32193",29.4906,-81.678294,322
+323,166 Beechers Point Dr,"Welaka, FL, 32193","166 Beechers Point Dr,Welaka, FL, 32193",29.467389,-81.684768,323
+324,311 Saratoga Dr,"Satsuma, FL, 32189","311 Saratoga Dr,Satsuma, FL, 32189",29.529621,-81.683482,324
+325,105 Teronda Rd,"Welaka, FL, 32193","105 Teronda Rd,Welaka, FL, 32193",29.465023,-81.67434,325
+326,121 Cody Dr,"Satsuma, FL, 32189","121 Cody Dr,Satsuma, FL, 32189",29.584916,-81.679397,326
+327,603 Front St,"Welaka, FL, 32193","603 Front St,Welaka, FL, 32193",29.479075,-81.67433,327
+328,113 William Bartram Dr,"Crescent City, FL, 32112","113 William Bartram Dr,Crescent City, FL, 32112",29.431948,-81.651411,328
+329,241 Sportsman Dr,"Welaka, FL, 32193","241 Sportsman Dr,Welaka, FL, 32193",29.489741,-81.678992,329
+330,380 Boys Ranch Rd,"Palatka, FL, 32177","380 Boys Ranch Rd,Palatka, FL, 32177",29.539491,-81.7164,330
+331,112 Cameilla Dr,"Satsuma, FL, 32189","112 Cameilla Dr,Satsuma, FL, 32189",29.580588,-81.675069,331
+332,468 Cove Dr,"Satsuma, FL, 32189","468 Cove Dr,Satsuma, FL, 32189",29.575813,-81.677612,332
+333,237 Hermits Dr,"Satsuma, FL, 32189","237 Hermits Dr,Satsuma, FL, 32189",29.580989,-81.67579,333
+334,244 Sportsman Ave,"Welaka, FL, 32193","244 Sportsman Ave,Welaka, FL, 32193",29.489639,-81.678532,334
+335,216 River Bend Pl Bldg C,"Welaka, FL, 32193","216 River Bend Pl Bldg C,Welaka, FL, 32193",29.465552,-81.684774,335
+336,119 Cameilla Dr,"Satsuma, FL, 32189","119 Cameilla Dr,Satsuma, FL, 32189",29.580116,-81.6751,336
+337,206 River Bend Ct Bldg A,"Welaka, FL, 32193","206 River Bend Ct Bldg A,Welaka, FL, 32193",29.465984,-81.684649,337
+338,165 Moonlite Dr,"Welaka, FL, 32193","165 Moonlite Dr,Welaka, FL, 32193",29.492395,-81.680758,338
+339,112 William Bartram Dr,"Welaka, FL, 32193","112 William Bartram Dr,Welaka, FL, 32193",29.431152,-81.651335,339
+340,125 W Palm Ave,"Crescent City, FL, 32112","125 W Palm Ave,Crescent City, FL, 32112",29.417173,-81.647244,340
+341,53 Sportsman Dr,"Welaka, FL, 32193","53 Sportsman Dr,Welaka, FL, 32193",29.489739,-81.677816,341
+342,133 St Johns Ct,"Satsuma, FL, 32189","133 St Johns Ct,Satsuma, FL, 32189",29.575965,-81.67846,342
+343,107 River Bend Ct Bldg A,"Welaka, FL, 32193","107 River Bend Ct Bldg A,Welaka, FL, 32193",29.466047,-81.684567,343
+344,118 N Hubers Fish Camp Rd,"Crescent City, FL, 32112","118 N Hubers Fish Camp Rd,Crescent City, FL, 32112",29.430929,-81.647272,344
+345,110 Point South Dr,"Welaka, FL, 32193","110 Point South Dr,Welaka, FL, 32193",29.466345,-81.681753,345
+346,211 Sportsman Dr,"Welaka, FL, 32193","211 Sportsman Dr,Welaka, FL, 32193",29.491618,-81.682986,346
+347,198 Sportsman Dr,"Welaka, FL, 32193","198 Sportsman Dr,Welaka, FL, 32193",29.492509,-81.682551,347
+348,117 Teronda Rd,"Welaka, FL, 32193","117 Teronda Rd,Welaka, FL, 32193",29.465673,-81.675827,348
+349,227 River Bend Pl Bldg D,"Welaka, FL, 32193","227 River Bend Pl Bldg D,Welaka, FL, 32193",29.46518,-81.68483,349
+350,102 Happiness Dr,"Welaka, FL, 32193","102 Happiness Dr,Welaka, FL, 32193",29.492002,-81.678773,350
+351,151 Buchanan Cir,"Satsuma, FL, 32189","151 Buchanan Cir,Satsuma, FL, 32189",29.574919,-81.678792,351
+352,464 Cove Dr,"Satsuma, FL, 32189","464 Cove Dr,Satsuma, FL, 32189",29.575921,-81.677415,352
+353,245 Sportsman Dr,"Welaka, FL, 32193","245 Sportsman Dr,Welaka, FL, 32193",29.489495,-81.678427,353
+354,112 Hicks Ave,"Crescent City, FL, 32112","112 Hicks Ave,Crescent City, FL, 32112",29.416084,-81.645277,354
+355,270 Hermits Dr,"Satsuma, FL, 32189","270 Hermits Dr,Satsuma, FL, 32189",29.580338,-81.677973,355
+356,1074 Front St,"Welaka, FL, 32193","1074 Front St,Welaka, FL, 32193",29.466119,-81.672716,356
+357,225 Sportsman Dr,"Welaka, FL, 32193","225 Sportsman Dr,Welaka, FL, 32193",29.490246,-81.681459,357
+358,189 Sportsman Dr,"Welaka, FL, 32193","189 Sportsman Dr,Welaka, FL, 32193",29.491887,-81.682076,358
+359,599 Stokes Landing Rd ,"Palatka, FL, 32177","599 Stokes Landing Rd ,Palatka, FL, 32177",29.571792,-81.699609,359
+360,19 Scott St,"Welaka, FL, 32193","19 Scott St,Welaka, FL, 32193",29.489599,-81.676702,360
+361,81 Carefree Dr,"Welaka, FL, 32193","81 Carefree Dr,Welaka, FL, 32193",29.490465,-81.678352,361
+362,131 River Bend Pl Bldg E,"Welaka, FL, 32193","131 River Bend Pl Bldg E,Welaka, FL, 32193",29.465127,-81.684515,362
+363,132 Paradise Dr,"Welaka, FL, 32193","132 Paradise Dr,Welaka, FL, 32193",29.492486,-81.679316,363
+364,224 River Bend Pl Bldg D,"Welaka, FL, 32193","224 River Bend Pl Bldg D,Welaka, FL, 32193",29.46528,-81.684943,364
+365,102 River Bend Ct Bldg A,"Welaka, FL, 32193","102 River Bend Ct Bldg A,Welaka, FL, 32193",29.466111,-81.68487,365
+366,137 Buchanan Cir,"Satsuma, FL, 32189","137 Buchanan Cir,Satsuma, FL, 32189",29.573565,-81.678783,366
+367,136 Floridian Club Rd,"Welaka, FL, 32193","136 Floridian Club Rd,Welaka, FL, 32193",29.492437,-81.677057,367
+368,221 Woodbury Trl,"Satsuma, FL, 32189","221 Woodbury Trl,Satsuma, FL, 32189",29.589028,-81.6814,368
+369,106 Cameilla Dr,"Satsuma, FL, 32189","106 Cameilla Dr,Satsuma, FL, 32189",29.580747,-81.675477,369
+370,230 River Bend Pl Bldg E,"Welaka, FL, 32193","230 River Bend Pl Bldg E,Welaka, FL, 32193",29.465039,-81.684593,370
+371,121 Cameilla Dr,"Satsuma, FL, 32189","121 Cameilla Dr,Satsuma, FL, 32189",29.579994,-81.675054,371
+372,221 Hermits Dr,"Satsuma, FL, 32189","221 Hermits Dr,Satsuma, FL, 32189",29.580838,-81.674602,372
+373,213 River Bend Pl Bldg B,"Welaka, FL, 32193","213 River Bend Pl Bldg B,Welaka, FL, 32193",29.465676,-81.684499,373
+374,233 Sportsman Dr,"Welaka, FL, 32193","233 Sportsman Dr,Welaka, FL, 32193",29.48996,-81.680216,374
+375,85 Sportsman Dr,"Welaka, FL, 32193","85 Sportsman Dr,Welaka, FL, 32193",29.490319,-81.679144,375
+376,110 National Forest Rd 29,"Palatka, FL, 32177","110 National Forest Rd 29,Palatka, FL, 32177",29.424121,-81.66473,376
+377,105 River Bend Ct Bldg A,"Welaka, FL, 32193","105 River Bend Ct Bldg A,Welaka, FL, 32193",29.466055,-81.684667,377
+378,14 Hockey Dr,"Welaka, FL, 32193","14 Hockey Dr,Welaka, FL, 32193",29.489596,-81.675909,378
+379,163 Mount Royal Ave,"Crescent City, FL, 32112","163 Mount Royal Ave,Crescent City, FL, 32112",29.432913,-81.651128,379
+380,150 Beechers Point Ave,"Welaka, FL, 32193","150 Beechers Point Ave,Welaka, FL, 32193",29.467608,-81.683455,380
+381,143 Buchanan Cir,"Satsuma, FL, 32189","143 Buchanan Cir,Satsuma, FL, 32189",29.574179,-81.679063,381
+382,111 W Palm Ave,"Crescent City, FL, 32112","111 W Palm Ave,Crescent City, FL, 32112",29.416647,-81.645644,382
+383,135 River Bend Pl Bldg E,"Welaka, FL, 32193","135 River Bend Pl Bldg E,Welaka, FL, 32193",29.465122,-81.684266,383
+384,218 River Bend Pl Bldg C,"Welaka, FL, 32193","218 River Bend Pl Bldg C,Welaka, FL, 32193",29.465506,-81.684892,384
+385,223 Sportsman Dr,"Welaka, FL, 32193","223 Sportsman Dr,Welaka, FL, 32193",29.490333,-81.681731,385
+386,222 River Bend Pl Bldg E,"Welaka, FL, 32193","222 River Bend Pl Bldg E,Welaka, FL, 32193",29.465438,-81.685086,386
+387,124 Hicks Ave,"Crescent City, FL, 32112","124 Hicks Ave,Crescent City, FL, 32112",29.41657,-81.64674,387
+388,194 Sportsman Dr,"Welaka, FL, 32193","194 Sportsman Dr,Welaka, FL, 32193",29.492391,-81.681941,388
+389,236 River Bend Pl Bldg E,"Welaka, FL, 32193","236 River Bend Pl Bldg E,Welaka, FL, 32193",29.465051,-81.684252,389
+390,245 Hermits Dr,"Satsuma, FL, 32189","245 Hermits Dr,Satsuma, FL, 32189",29.580743,-81.67638,390
+391,130 River Bend Pl Bldg E,"Welaka, FL, 32193","130 River Bend Pl Bldg E,Welaka, FL, 32193",29.465107,-81.684582,391
+392,103 Teronda Rd,"Welaka, FL, 32193","103 Teronda Rd,Welaka, FL, 32193",29.465188,-81.673976,392
+393,139 Buchanan Cir,"Satsuma, FL, 32189","139 Buchanan Cir,Satsuma, FL, 32189",29.573784,-81.678832,393
+394,1074 Front St Lot 31,"Welaka, FL, 32193","1074 Front St Lot 31,Welaka, FL, 32193",29.466119,-81.672716,394
+395,128 Beechers Point Dr,"Welaka, FL, 32193","128 Beechers Point Dr,Welaka, FL, 32193",29.468386,-81.681626,395
+396,24 Scott St,"Welaka, FL, 32193","24 Scott St,Welaka, FL, 32193",29.490267,-81.676754,396
+397,166 Mount Royal Ave,"Crescent City, FL, 32112","166 Mount Royal Ave,Crescent City, FL, 32112",29.432323,-81.650562,397
+398,456 Cove Dr,"Satsuma, FL, 32189","456 Cove Dr,Satsuma, FL, 32189",29.576284,-81.676935,398
+399,263 Hermits Dr,"Satsuma, FL, 32189","263 Hermits Dr,Satsuma, FL, 32189",29.579817,-81.67732,399
+400,100 Cameilla Dr,"Satsuma, FL, 32189","100 Cameilla Dr,Satsuma, FL, 32189",29.580569,-81.675968,400
+401,249 Hermits Dr,"Satsuma, FL, 32189","249 Hermits Dr,Satsuma, FL, 32189",29.580576,-81.676352,401
+402,226 Sportsman Dr,"Welaka, FL, 32193","226 Sportsman Dr,Welaka, FL, 32193",29.490121,-81.681232,402
+403,219 Hermits Dr,"Satsuma, FL, 32189","219 Hermits Dr,Satsuma, FL, 32189",29.580696,-81.674522,403
+404,156 Mount Royal Ave,"Crescent City, FL, 32112","156 Mount Royal Ave,Crescent City, FL, 32112",29.433711,-81.651098,404
+405,107 William Bartram Dr,"Crescent City, FL, 32112","107 William Bartram Dr,Crescent City, FL, 32112",29.431703,-81.650311,405
+406,181 Sportsman Dr,"Welaka, FL, 32193","181 Sportsman Dr,Welaka, FL, 32193",29.491368,-81.682137,406
+407,119 St Johns Ct,"Satsuma, FL, 32189","119 St Johns Ct,Satsuma, FL, 32189",29.576703,-81.677895,407
+408,132 River Bend Pl Bldg E,"Welaka, FL, 32193","132 River Bend Pl Bldg E,Welaka, FL, 32193",29.465119,-81.684453,408
+409,225 River Bend Pl Bldg D,"Welaka, FL, 32193","225 River Bend Pl Bldg D,Welaka, FL, 32193",29.465254,-81.684886,409
+410,203 River Bend Ct Bldg A,"Welaka, FL, 32193","203 River Bend Ct Bldg A,Welaka, FL, 32193",29.46601,-81.684817,410
+411,1074 Front St Lot 19,"Welaka, FL, 32193","1074 Front St Lot 19,Welaka, FL, 32193",29.466119,-81.672716,411
+412,174 River Bend Pl Bldg D,"Welaka, FL, 32193","174 River Bend Pl Bldg D,Welaka, FL, 32193",29.466034,-81.684871,412
+413,248 Sportsman Dr,"Welaka, FL, 32193","248 Sportsman Dr,Welaka, FL, 32193",29.489285,-81.67809,413
+414,115 St Johns Ct,"Satsuma, FL, 32189","115 St Johns Ct,Satsuma, FL, 32189",29.576985,-81.677632,414
+415,208 River Bend Ct Bldg A,"Welaka, FL, 32193","208 River Bend Ct Bldg A,Welaka, FL, 32193",29.465977,-81.684549,415
+416,18 Scott St,"Welaka, FL, 32193","18 Scott St,Welaka, FL, 32193",29.489378,-81.676684,416
+417,127 River Bend Ct Bldg A,"Welaka, FL, 32193","127 River Bend Ct Bldg A,Welaka, FL, 32193",29.465192,-81.684745,417
+418,7 Hockey Dr,"Welaka, FL, 32193","7 Hockey Dr,Welaka, FL, 32193",29.490477,-81.675769,418
+419,11 Hockey Dr,"Welaka, FL, 32193","11 Hockey Dr,Welaka, FL, 32193",29.490005,-81.675888,419
+420,116 Paradise Dr,"Welaka, FL, 32193","116 Paradise Dr,Welaka, FL, 32193",29.490528,-81.680256,420
+421,159 Beechers Point Dr,"Welaka, FL, 32193","159 Beechers Point Dr,Welaka, FL, 32193",29.46711,-81.68398,421
+422,130 Woodbury Trl,"Satsuma, FL, 32189","130 Woodbury Trl,Satsuma, FL, 32189",29.590468,-81.68275,422
+423,203 River Bend Pl Bldg B,"Welaka, FL, 32193","203 River Bend Pl Bldg B,Welaka, FL, 32193",29.466002,-81.684811,423
+424,104 Point South Dr,"Welaka, FL, 32193","104 Point South Dr,Welaka, FL, 32193",29.465905,-81.683213,424
+425,205 River Bend Ct Bldg A,"Welaka, FL, 32193","205 River Bend Ct Bldg A,Welaka, FL, 32193",29.465988,-81.684699,425
+426,115 River Bend Pl Bldg C,"Welaka, FL, 32193","115 River Bend Pl Bldg C,Welaka, FL, 32193",29.46563,-81.684726,426
+427,84 Sportsman Dr,"Welaka, FL, 32193","84 Sportsman Dr,Welaka, FL, 32193",29.49009,-81.67859,427
+428,275 Hermits Dr,"Satsuma, FL, 32189","275 Hermits Dr,Satsuma, FL, 32189",29.580757,-81.676384,428
+429,129 River Rd,"Satsuma, FL, 32189","129 River Rd,Satsuma, FL, 32189",29.529099,-81.682568,429
+430,202 Buckman Lock Rd,"Palatka, FL, 32177","202 Buckman Lock Rd,Palatka, FL, 32177",29.54793,-81.72641,430
+431,120 River Bend Pl Bldg C,"Welaka, FL, 32193","120 River Bend Pl Bldg C,Welaka, FL, 32193",29.465533,-81.684982,431
+432,234 Sportsman Dr,"Welaka, FL, 32193","234 Sportsman Dr,Welaka, FL, 32193",29.489989,-81.680054,432
+433,239 Sportsman Dr,"Welaka, FL, 32193","239 Sportsman Dr,Welaka, FL, 32193",29.48993,-81.679267,433
+434,123 Cameilla Dr,"Satsuma, FL, 32189","123 Cameilla Dr,Satsuma, FL, 32189",29.579881,-81.674991,434
+435,141 Buchanan Cir,"Satsuma, FL, 32189","141 Buchanan Cir,Satsuma, FL, 32189",29.573948,-81.678929,435
+436,155 Beechers Point Dr,"Welaka, FL, 32193","155 Beechers Point Dr,Welaka, FL, 32193",29.46718,-81.683623,436
+437,157 Pine Tree Rd,"Palatka, FL, 32177","157 Pine Tree Rd,Palatka, FL, 32177",29.588898,-81.696349,437
+438,108 Hicks Ave,"Crescent City, FL, 32112","108 Hicks Ave,Crescent City, FL, 32112",29.415907,-81.644661,438
+439,100 Gumps Pl,"Palatka, FL, 32177","100 Gumps Pl,Palatka, FL, 32177",29.487784,-81.791281,439
+440,233 River Bend Pl Bldg E,"Welaka, FL, 32193","233 River Bend Pl Bldg E,Welaka, FL, 32193",29.46507,-81.684403,440
+441,237 Whitney St,"Satsuma, FL, 32189","237 Whitney St,Satsuma, FL, 32189",29.537899,-81.692512,441
+442,245 Whitney St,"Satsuma, FL, 32189","245 Whitney St,Satsuma, FL, 32189",29.537952,-81.69346,442
+443,1 Boston St,"Welaka, FL, 32193","1 Boston St,Welaka, FL, 32193",29.48476,-81.674372,443
+444,131 St Johns Ct ,"Satsuma, FL, 32189","131 St Johns Ct ,Satsuma, FL, 32189",29.576105,-81.678363,444
+445,174 Moonlite Dr,"Welaka, FL, 32193","174 Moonlite Dr,Welaka, FL, 32193",29.491472,-81.681436,445
+446,118 Beechers Point Dr,"Welaka, FL, 32193","118 Beechers Point Dr,Welaka, FL, 32193",29.468745,-81.680726,446
+447,230 Sportsman Dr,"Welaka, FL, 32193","230 Sportsman Dr,Welaka, FL, 32193",29.489933,-81.68072,447
+448,123 River Bend Pl Bldg E,"Welaka, FL, 32193","123 River Bend Pl Bldg E,Welaka, FL, 32193",29.465356,-81.684907,448
+449,204 River Bend Ct Bldg A,"Welaka, FL, 32193","204 River Bend Ct Bldg A,Welaka, FL, 32193",29.466006,-81.684754,449
+450,109 RIver Bend Pl Bldg B,"Welaka, FL, 32193","109 RIver Bend Pl Bldg B,Welaka, FL, 32193",29.465891,-81.684479,450
+451,703 Front St,"Welaka, FL, 32193","703 Front St,Welaka, FL, 32193",29.478044,-81.67443,451
+452,153 Buchanan Cir,"Satsuma, FL, 32189","153 Buchanan Cir,Satsuma, FL, 32189",29.574885,-81.678533,452
+453,22 Scott St,"Welaka, FL, 32193","22 Scott St,Welaka, FL, 32193",29.489939,-81.676794,453
+454,269 Hermits Dr,"Satsuma, FL, 32189","269 Hermits Dr,Satsuma, FL, 32189",29.580175,-81.677882,454
+455,168 Beechers Point Dr,"Welaka, FL, 32193","168 Beechers Point Dr,Welaka, FL, 32193",29.467092,-81.684725,455
+456,123 W Palm Ave,"Crescent City, FL, 32112","123 W Palm Ave,Crescent City, FL, 32112",29.417039,-81.646832,456
+457,104 Sonata Ct,"Satsuma, FL, 32189","104 Sonata Ct,Satsuma, FL, 32189",29.508894,-81.676894,457
+458,102 Cameilla Dr,"Satsuma, FL, 32189","102 Cameilla Dr,Satsuma, FL, 32189",29.580597,-81.67585,458
+459,1074 Front St Lot 33,"Welaka, FL, 32193","1074 Front St Lot 33,Welaka, FL, 32193",29.466119,-81.672716,459
+460,113 Teronda Rd,"Welaka, FL, 32193","113 Teronda Rd,Welaka, FL, 32193",29.465508,-81.675045,460
+461,201 RIver Bend Ct Bldg A,"Welaka, FL, 32193","201 RIver Bend Ct Bldg A,Welaka, FL, 32193",29.466047,-81.684939,461
+462,222 Sportsman Dr,"Welaka, FL, 32193","222 Sportsman Dr,Welaka, FL, 32193",29.490445,-81.68189,462
+463,265 Hermits Dr,"Satsuma, FL, 32189","265 Hermits Dr,Satsuma, FL, 32189",29.57997,-81.677473,463
+464,232 River Bend Pl Bldg E,"Welaka, FL, 32193","232 River Bend Pl Bldg E,Welaka, FL, 32193",29.465051,-81.684464,464
+465,103 William Bartram Dr ,"Crescent City, FL, 32112","103 William Bartram Dr ,Crescent City, FL, 32112",29.431629,-81.649969,465
+466,280 Cove Dr,"Satsuma, FL, 32189","280 Cove Dr,Satsuma, FL, 32189",29.579279,-81.674443,466
+467,101 River Bend Ct Bldg A,"Welaka, FL, 32193","101 River Bend Ct Bldg A,Welaka, FL, 32193",29.466115,-81.684933,467
+468,122 Beechers Point Dr,"Welaka, FL, 32193","122 Beechers Point Dr,Welaka, FL, 32193",29.468736,-81.681054,468
+469,228 Sportsman Dr,"Welaka, FL, 32193","228 Sportsman Dr,Welaka, FL, 32193",29.49004,-81.681023,469
+470,235 River Bend Pl Bldg E,"Welaka, FL, 32193","235 River Bend Pl Bldg E,Welaka, FL, 32193",29.465057,-81.684302,470
+471,135 Beechers Point Dr,"Welaka, FL, 32193","135 Beechers Point Dr,Welaka, FL, 32193",29.467801,-81.681956,471
+472,103 River Bend Ct Bldg A,"Welaka, FL, 32193","103 River Bend Ct Bldg A,Welaka, FL, 32193",29.466079,-81.68481,472
+473,460 Cove Dr,"Satsuma, FL, 32189","460 Cove Dr,Satsuma, FL, 32189",29.576064,-81.677131,473
+474,207 River Bend Ct Bldg A,"Welaka, FL, 32193","207 River Bend Ct Bldg A,Welaka, FL, 32193",29.465981,-81.684599,474
+475,132 Beechers Point Dr,"Welaka, FL, 32193","132 Beechers Point Dr,Welaka, FL, 32193",29.468271,-81.681875,475
+476,1074 Front St Lot 20,"Welaka, FL, 32193","1074 Front St Lot 20,Welaka, FL, 32193",29.466119,-81.672716,476
+477,219 RIver Bend Pl Bldg C,"Welaka, FL, 32193","219 RIver Bend Pl Bldg C,Welaka, FL, 32193",29.46547,-81.684943,477
+478,131 River Rd,"Satsuma, FL, 32189","131 River Rd,Satsuma, FL, 32189",29.529224,-81.682718,478
+479,109 Teronda Rd,"Welaka, FL, 32193","109 Teronda Rd,Welaka, FL, 32193",29.465046,-81.674799,479
+480,1074 Front St Lot 30,"Welaka, FL, 32193","1074 Front St Lot 30,Welaka, FL, 32193",29.466119,-81.672716,480
+481,101 Beechers Point Dr,"Welaka, FL, 32193","101 Beechers Point Dr,Welaka, FL, 32193",29.468208,-81.678052,481
+482,57 Carefree Dr,"Welaka, FL, 32193","57 Carefree Dr,Welaka, FL, 32193",29.490171,-81.678085,482
+483,221 Sportsman Dr,"Welaka, FL, 32193","221 Sportsman Dr,Welaka, FL, 32193",29.490499,-81.682002,483
+484,240 Sportsman Dr,"Welaka, FL, 32193","240 Sportsman Dr,Welaka, FL, 32193",29.489817,-81.679127,484
+485,147 Buchanan Cir,"Satsuma, FL, 32189","147 Buchanan Cir,Satsuma, FL, 32189",29.574556,-81.679154,485
+486,135 Buchanan Cir,"Satsuma, FL, 32189","135 Buchanan Cir,Satsuma, FL, 32189",29.573375,-81.67877,486
+487,231 Sportsman Dr,"Welaka, FL, 32193","231 Sportsman Dr,Welaka, FL, 32193",29.489994,-81.680532,487
+488,210 River Bend Pl Bldg B,"Welaka, FL, 32193","210 River Bend Pl Bldg B,Welaka, FL, 32193",29.465808,-81.684444,488
+489,204 Cove Dr,"Satsuma, FL, 32189","204 Cove Dr,Satsuma, FL, 32189",29.579669,-81.673969,489
+490,118 RIver Bend Pl Bldg C,"Welaka, FL, 32193","118 RIver Bend Pl Bldg C,Welaka, FL, 32193",29.465573,-81.684906,490
+491,54 Sportsman Dr,"Welaka, FL, 32193","54 Sportsman Dr,Welaka, FL, 32193",29.489934,-81.678022,491
+492,238 Sportsman Dr,"Welaka, FL, 32193","238 Sportsman Dr,Welaka, FL, 32193",29.489806,-81.679473,492
+493,241 Whitney Dr,"Satsuma, FL, 32189","241 Whitney Dr,Satsuma, FL, 32189",29.537975,-81.692914,493
+494,229 RIver Bend Pl Bldg E,"Welaka, FL, 32193","229 RIver Bend Pl Bldg E,Welaka, FL, 32193",29.465047,-81.684655,494
+495,110 River Bend Pl Bldg B,"Welaka, FL, 32193","110 River Bend Pl Bldg B,Welaka, FL, 32193",29.465844,-81.684511,495
+496,202 River Bend Ct Bldg A,"Welaka, FL, 32193","202 River Bend Ct Bldg A,Welaka, FL, 32193",29.466042,-81.684877,496
+497,220 River Bend Pl Bldg C,"Welaka, FL, 32193","220 River Bend Pl Bldg C,Welaka, FL, 32193",29.465462,-81.684992,497
+498,1074 Front St Lot 34 ,"Welaka, FL, 32193","1074 Front St Lot 34 ,Welaka, FL, 32193",29.466119,-81.672716,498
+499,58 Carefree Dr,"Welaka, FL, 32193","58 Carefree Dr,Welaka, FL, 32193",29.490308,-81.677984,499
+500,83 Carefree Dr,"Welaka, FL, 32193","83 Carefree Dr,Welaka, FL, 32193",29.490223,-81.678488,500
+501,45 Scott St,"Welaka, FL, 32193","45 Scott St,Welaka, FL, 32193",29.489909,-81.677292,501
+502,235 Sportsman Dr,"Welaka, FL, 32193","235 Sportsman Dr,Welaka, FL, 32193",29.489962,-81.679905,502
+503,242 Sportsman Dr,"Welaka, FL, 32193","242 Sportsman Dr,Welaka, FL, 32193",29.489697,-81.678754,503
+504,125 River Bend Pl Bldg D,"Welaka, FL, 32193","125 River Bend Pl Bldg D,Welaka, FL, 32193",29.465273,-81.684806,504
+505,15 Hockey Dr,"Welaka, FL, 32193","15 Hockey Dr,Welaka, FL, 32193",29.489436,-81.675914,505
+506,246 Sportsman Dr,"Welaka, FL, 32193","246 Sportsman Dr,Welaka, FL, 32193",29.489542,-81.678216,506
+507,44 Scott St,"Welaka, FL, 32193","44 Scott St,Welaka, FL, 32193",29.490113,-81.677271,507
+508,221 River Bend Pl Bldg B,"Welaka, FL, 32193","221 River Bend Pl Bldg B,Welaka, FL, 32193",29.465446,-81.685037,508
+509,146 Beechers Point Dr,"Welaka, FL, 32193","146 Beechers Point Dr,Welaka, FL, 32193",29.46771,-81.683243,509
+510,215 River Bend Pl Bldg C,"Welaka, FL, 32193","215 River Bend Pl Bldg C,Welaka, FL, 32193",29.465562,-81.684712,510
+511,226 RIver Bend Pl Bldg D,"Welaka, FL, 32193","226 RIver Bend Pl Bldg D,Welaka, FL, 32193",29.465217,-81.684858,511
+512,439 Cove Dr,"Satsuma, FL, 32189","439 Cove Dr,Satsuma, FL, 32189",29.577844,-81.676748,512
+513,221 River Bend Pl Bldg C,"Welaka, FL, 32193","221 River Bend Pl Bldg C,Welaka, FL, 32193",29.465454,-81.685042,513
+514,123 Teronda Rd,"Welaka, FL, 32193","123 Teronda Rd,Welaka, FL, 32193",29.465717,-81.676561,514
+515,21 Scott St,"Welaka, FL, 32193","21 Scott St,Welaka, FL, 32193",29.489807,-81.67671,515
+516,224 Sportsman Dr,"Welaka, FL, 32193","224 Sportsman Dr,Welaka, FL, 32193",29.490279,-81.681601,516
+517,12 Hockey Dr,"Welaka, FL, 32193","12 Hockey Dr,Welaka, FL, 32193",29.489868,-81.675897,517
+518,220 Sportsman Dr,"Welaka, FL, 32193","220 Sportsman Dr,Welaka, FL, 32193",29.490565,-81.682134,518
+519,122 River Bend Pl Bldg C,"Welaka, FL, 32193","122 River Bend Pl Bldg C,Welaka, FL, 32193",29.465518,-81.685081,519
+520,234 RIver Bend Pl Bldg E,"Welaka, FL, 32193","234 RIver Bend Pl Bldg E,Welaka, FL, 32193",29.465064,-81.684353,520
+521,214 River Bend Pl Bldg B,"Welaka, FL, 32193","214 River Bend Pl Bldg B,Welaka, FL, 32193",29.465639,-81.684525,521
+522,140 Beechers Point Dr,"Welaka, FL, 32193","140 Beechers Point Dr,Welaka, FL, 32193",29.468001,-81.682536,522
+523,104 Beechers Point Dr,"Welaka, FL, 32193","104 Beechers Point Dr,Welaka, FL, 32193",29.469213,-81.679712,523
+524,228 River Bend Pl Bldg D,"Welaka, FL, 32193","228 River Bend Pl Bldg D,Welaka, FL, 32193",29.465143,-81.684803,524
+525,119 W Palm Ave,"Crescent City, FL, 32112","119 W Palm Ave,Crescent City, FL, 32112",29.416808,-81.646354,525
+526,145 Buchanan Cir,"Satsuma, FL, 32189","145 Buchanan Cir,Satsuma, FL, 32189",29.574363,-81.679116,526
+527,231 RIver Bend Pl Bldg E,"Welaka, FL, 32193","231 RIver Bend Pl Bldg E,Welaka, FL, 32193",29.465059,-81.684526,527
+528,236 Sportsman Dr,"Welaka, FL, 32193","236 Sportsman Dr,Welaka, FL, 32193",29.489872,-81.679646,528
+529,115 Happiness Dr,"Welaka, FL, 32193","115 Happiness Dr,Welaka, FL, 32193",29.490391,-81.679675,529
+530,110 Beechers Point Dr,"Welaka, FL, 32193","110 Beechers Point Dr,Welaka, FL, 32193",29.468867,-81.679882,530
+531,147 Hicks Ave,"Crescent City, FL, 32112","147 Hicks Ave,Crescent City, FL, 32112",29.417238,-81.64977,531
+532,217 River Bend Pl Bldg C,"Welaka, FL, 32193","217 River Bend Pl Bldg C,Welaka, FL, 32193",29.465515,-81.684831,532

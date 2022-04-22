@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    
+
+
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+</head>
+
+<body>
+
+{% block content %}
+
+    <span class="title">
+        
+    </span>
+    <h1 style= "text-align:center"> The Rodman dam and reservoir in Putnam County, FL puts residents at risk. </h1>
+
+    <div id="map" style="height: 500px; width: 80%;  margin-left: auto;
+    margin-right: auto;"></div>
+    <div class="content">
+     
+            <div class="address">
+               
+
+            <div class= "border border-dark container">
+                
+                <div class="col-md-10 col-lg-8 mx-lg-auto mx-md-auto">
+
+          
+                <h1 id= "app"></h1>
+                  <h2> Tips for searching </h2>
+                    <i><h3> 
+                      <ul>
+                        <li> Do not include city, zipcode or state.</li>
+                        <li> Format it like: "123 Main St" or "456 NW Road"</li>
+                        <li> Triple-check spelling. </li>
+                      </ul>
+                  </h3></i>
+                      
+                
+
+                <h4 class="light pt-5 light border-dark"><b> {{ wtf.quick_form(form) }}</b><h4>
+        
+                <b> <h4 class="pt-5 border-dark"><strong>{{ message }}</strong></h4></b>
+                <a href="{{ url_for('index') }}" class="btn btn-light" >Return to the home page</a>
+
+            </div>
+            </div>
+
+          </div>
+        </div>
+                
+        </body>
+  
+        <script type="text/javascript">
+            var map = L.map('map').setView([29.50897713243079, -81.80543953130356], 10);
+            const satelliteLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+              maxZoom: 15,
+              minZoom: 10,
+              id: 'danacassidy/cl250vjo7000g14mn4aair6pl',
+              tileSize: 512,
+              zoomOffset: -1,
+              accessToken: 'pk.eyJ1IjoiZGFuYWNhc3NpZHkiLCJhIjoiY2wxd3EweHByMDBvZTNrbWIxbWYwMHUzNSJ9.gSnbIiFFLkMUhhYmBrJhOw'
+          }).addTo(map);      
+          
+          var marker2 = L.circleMarker([ 29.50897713243079, -81.80543953130356],{
+              radius: 15,
+              color: "red",
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.7
+          }).addTo(map).bindTooltip( "This is the Rodman Dam");;
+
+        
+          function myFunc(vars) {
+              return vars
+            }
+            myVar = myFunc({{data|tojson}})
+
+  
+          
+       
+          var latlngs = [[ 29.61297713243079,-81.81543953130356],[ 29.40497, -81.81543953130356],[ 29.40497, -81.633661],[ 29.60897713243079, -81.633661]];
+
+          // create a red polyline from an array of LatLng points
+          var polygon = L.polygon(latlngs, {color: 'red'}).addTo(map);
+
+          // zoom the map to the polygon
+          map.fitBounds(polygon.getBounds());
+        </script>
+
+    
+</html>
+
+{% endblock %}
+

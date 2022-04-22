@@ -1,0 +1,67 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <span class="title" style = "text-align:center">
+    
+               
+             
+<h1> This address is not in our database or was misspelt.</h1>
+<div class= "border border-dark container" style= "padding: 2%; width: 80%; align-items:left">   
+
+  <h2> Tips for searching </h2>
+  <i><h3> 
+    <ul>
+    <li> Please fill out the address in this format: <b>123 Main Rd</b> or <b>567 Test Dr </b>.</li>
+    <li> Make sure any ordinal directions are written as: <b>N, S, W, E, NW, SW, ...</b></li>
+    <li> Make sure the ending is written as: <b>Rd, Ave, St, Dr, .. </b></li>
+    <li> Triple-check the spelling of your address </li>
+    </ul>
+</h3></i>
+<a href="{{ url_for('search') }}" class="btn btn-light center" style="text-align:center" >Back to Search</a>
+
+</div>
+
+
+
+   
+<div style="padding:2%"></div>
+                <div class= "border border-dark container" style= "width: 80%; align-items:left">   
+    
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                  mollit anim id est laborum."
+                </p>
+
+                <h2> Here's what to do</h2>
+                <ul style="text-align:left; align-items:left">
+                <li>Lorem ipsum dolor sit</li>
+                <li> Contact 123-456-7890</li>
+                <li> Consectetur adipiscing elit,veniam </li>
+                </ul>
+               
+
+                <h2> Further resources</h2>
+                <ul style="text-align:left; align-items:left">
+                    <li>Lorem ipsum dolor sit</li>
+                <li> Contact 123-456-7890</li>
+                <li> Consectetur adipiscing elit,veniam </li>
+                </ul>
+               
+                  </div>
+                  <div style= "text-align:center">
+                    <a href="{{ url_for('search') }}" class="btn btn-light" >Back to Search</a>
+                  <div>
+                    <div style="padding:2%">
+                    </div>
+                </body>
+              </div>
+            
+                        
+       
+    </div>
+   
+    </html>
+
+  {% endblock %}

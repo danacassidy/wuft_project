@@ -1,0 +1,91 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <span class="title" style = "text-align:center">
+        <h1>{% block title %} {{ address.Street }} is considered <b>high risk</b>.{% endblock %}</h1>
+    </span>
+    <div class="content">
+            <div class="address">
+               
+             
+               
+        <div id="map" style="height: 500px; width: 80%;  margin-left: auto;
+        margin-right: auto;"></div>
+                <script type="text/javascript">
+                  var map = L.map('map').setView([29.50897713243079, -81.80543953130356], 10);
+                  const satelliteLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    maxZoom: 15,
+                    minZoom: 10,
+                    id: 'danacassidy/cl250vjo7000g14mn4aair6pl',
+                    tileSize: 512,
+                    zoomOffset: -1,
+                    accessToken: 'pk.eyJ1IjoiZGFuYWNhc3NpZHkiLCJhIjoiY2wxd3EweHByMDBvZTNrbWIxbWYwMHUzNSJ9.gSnbIiFFLkMUhhYmBrJhOw'
+                }).addTo(map);               
+                
+                function myFunc(vars) {
+                  return vars
+                }
+                myVar = myFunc({{data|tojson}})
+
+               
+                console.log(myVar);
+               
+
+              var marker = L.marker([myVar['latitude'], myVar['longitude']],{
+                  radius: 8,
+                  color: "#3388ff",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+              }).addTo(map).bindTooltip( "This is " + myVar['address'] + ".", {permanent: true});
+              var marker2 = L.circleMarker([ 29.50897713243079, -81.80543953130356],{
+                radius: 15,
+                color: "red",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.7
+            }).addTo(map).bindTooltip( "This is the Rodman Dam", {permanent: true});;
+                
+
+                </script>
+                <div style="padding:2%"></div>
+                <div class= "border border-dark container" style= "width: 80%; align-items:left">       
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                  mollit anim id est laborum."
+                </p>
+
+                <h2> Here's what to do</h2>
+                <ul style="text-align:left; align-items:left">
+                <li>Lorem ipsum dolor sit</li>
+                <li> Contact 123-456-7890</li>
+                <li> Consectetur adipiscing elit,veniam </li>
+                </ul>
+               
+
+                <h2> Further resources</h2>
+                <ul>
+                <li>Lorem ipsum dolor sit</li>
+                <li> Contact 123-456-7890</li>
+                <li> Consectetur adipiscing elit,veniam </li>
+                </ul>
+               
+                  </div>
+                  <div style= "text-align:center">
+                    <a href="{{ url_for('search') }}" class="btn btn-light" >Back to Search</a>
+                  <div>
+                    <div style="padding:2%">
+                    </div>
+                </body>
+              </div>
+            
+                        
+       
+    </div>
+   
+    </html>
+
+  {% endblock %}
