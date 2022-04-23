@@ -198,12 +198,6 @@ def search():
         name = name.replace("west","w")
         name = name.replace("north","n")
 
-
-
-
-
-
-        print(name)
         if parsed_name in parsed_streets:
             # empty the form field
             form.name.data = ""
