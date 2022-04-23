@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
     
 
 
@@ -10,6 +9,9 @@
 {% import "bootstrap/wtf.html" as wtf %}
 
 </head>
+<style>
+ 
+</style>
 
 <body>
 
@@ -33,22 +35,22 @@
 
           
                 <h1 id= "app"></h1>
-                  <h2> Tips for searching </h2>
-                    <i><h3> 
+                  <p> Tips for searching </p>
                       <ul>
-                        <li> Do not include city, zipcode or state.</li>
-                        <li> Format it like: "123 Main St" or "456 NW Road"</li>
-                        <li> Triple-check spelling. </li>
+                        <p> <li>  Do not include city, zipcode or state.</li></p>
+                        <p><li> Format it like: "123 Main St" or "456 NW Road"</li></p>
+                        <p><li> Triple-check spelling. </li></p>
                       </ul>
-                  </h3></i>
+        
                       
                 
 
-                <h4 class="light pt-5 light border-dark"><b> {{ wtf.quick_form(form) }}</b><h4>
+                <p style="color:white;">{{ wtf.quick_form(form) }}<p>
         
-                <b> <h4 class="pt-5 border-dark"><strong>{{ message }}</strong></h4></b>
-                <a href="{{ url_for('index') }}" class="btn btn-light" >Return to the home page</a>
-
+                <b> <p style="color:white;"><strong>{{ message }}</strong></p></b>
+                <div style="padding:5%" >
+                  <a href="{{ url_for('index') }}" class="btn btn-light">Return to the home page</a>
+                  </div>
             </div>
             </div>
 

@@ -2,21 +2,21 @@ var config = {
     style: 'mapbox://styles/danacassidy/cl250vjo7000g14mn4aair6pl',
     accessToken: 'pk.eyJ1IjoiZGFuYWNhc3NpZHkiLCJhIjoiY2wxd3EweHByMDBvZTNrbWIxbWYwMHUzNSJ9.gSnbIiFFLkMUhhYmBrJhOw',
     showMarkers: true,
-    markerColor: '#3FB1CE',
+    markerColor: '#76a5ef',
     //projection: 'equirectangular',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
     theme: 'dark',
-    use3dTerrain: true, 
+    use3dTerrain: true,
 
     chapters: [
+        
         {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'Display Title',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: "<p>A new, 261-page Department of Environmental Protection dam safety report brings new urgency to the decades-long battle over Rodman Dam. What was once a low-hazard dam has become dangerous with age. </p> As the dam turns 54, risk has surged: The failure analysis changed the dam risk level to from low to high hazard, meaning that death is a possibility.",
             location: {
                 center: [-81.80642, 29.50876],
                 zoom: 6,
@@ -27,6 +27,10 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: 'locks_dam',
+                    opacity: 0
+                },
                  {
                 layer: 'addresses',
                 opacity: 0
@@ -35,10 +39,7 @@ var config = {
                     layer:'background',
                     opacity:1
                 },
-                {
-                    layer: 'locks_dam',
-                    opacity: 0
-                },
+                
             ],
             onChapterExit: [
                 {
@@ -55,8 +56,7 @@ var config = {
             id: 'second-identifier',
             alignment: 'right',
             hidden: false,
-            title: 'Second Title',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            description: '<p>Rodman Dam was part of the early construction of the Cross Barge Florida Canal, a cut through peninsular Florida that  would have allowed ships to cross through an inland waterway. The project was halted by President Nixon in 1971. But the dam, popular with fishers, remains.</p><p>Science shows that removing it could restore 20 springs and 8,000 acres of flooded forest, and replenish six historic fish and shellfish species and more. </p>',
             location: {
                 center: [-81.80642, 29.50876],
                 zoom: 8,
@@ -89,8 +89,7 @@ var config = {
             id: 'third-identifier',
             alignment: 'left',
             hidden: false,
-            title: 'Third Title',
-            description: 'Copy these sections to add to your story.',
+            description: '<p>Despite the DEP report listing more than 530 homes downstream from the dam as at risk in a worst-case scenario, there has been no concerted effort to notify homeowners of the potential danger except for an emergency opt-in system that’s still being worked on. </p> <p>“There is evidence of probable loss of life resulting from a dam failure,” the report reads.</p>',
             location: {
                 center: [-81.80642, 29.50876],
                 zoom: 10,
@@ -118,8 +117,7 @@ var config = {
             id: 'fourth-identifier',
             alignment: 'right',
             hidden: false,
-            title: 'Third Title',
-            description: 'Copy these sections to add to your story.',
+            description: '<p>Other remnants of the project, considered one of the largest unfinished public works projects in U.S. history:  Buckman Lock, Eureka Dam and Lock and the Inglis Lock, also used as recreation areas.</p> <p>The defunct locks often disrupt aquatic wildlife like alligators and manatees that are only able to pass through at certain times when they open.</p><p>If the dam were to be removed, the locks would go, too. </p>',
             location: {
                 center: [-81.80642, 29.50876],
                 zoom: 8,
@@ -150,8 +148,7 @@ var config = {
             id: 'fourth-chapter',
             alignment: 'left',
             hidden: false,
-            title: 'Third Title',
-            description: 'Copy these sections to add to your story.',
+            description: 'The affected homes are in four Putnam County towns: Palatka, Crescent City, Satsuma, and Welaka. Families revel in their small, quiet fishing communities.',
             location: {
                 center: [-81.74958102568239, 29.511059795972223],
                 zoom: 12,

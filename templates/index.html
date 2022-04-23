@@ -15,17 +15,37 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
+
     <style>
 
         body {
             margin:0;
             padding:0;
-            font-family: serif;
             overflow-x: hidden;
-            background-color: #161616;
-
+            background-color: #16212d;
+            font-family: 'proxima-nova', sans-serif;
+            font-size: 18px;
+   
+  
 
         }
+       
+        h3{
+            font-family: 'orpheus-pro', serif;
+            font-size: 24pt;
+        }
+
+        #container {
+            max-width: 900px; /* keep */
+            margin: auto; /* keep */
+            padding:  25px 50px;
+            line-height: 45px;
+            font-size: 18px;
+            color: white;
+
+        }
+
+        
 
         
         a, a:hover, a:visited {
@@ -52,17 +72,28 @@
             transition: opacity 0.5s ease-in-out;
             pointer-events: none;
         }
-        #header {
+        #my_header {
             margin: auto;
             width: 100%;
             position: relative;
             z-index: 5;
+            top: 0;
+            height: 100vh;
+            width: 100vw;
+
         }
-        #header h1, #header h2, #header p {
-            margin: 0;
-            padding: 2vh 2vw;
-            text-align: center;
-            font-size: 20px
+        #my_header h1, #my_header h2, #my_header p {
+            color: white;
+              padding: 20%;
+              width: 28em; /*There's very little padding so that the box hugs the paragraphs.  The lines of the box guide the eyes downward.*/
+              padding-top: 0.12em;
+              padding-bottom: 0.12em; /*Jagged right edges are unsightly, so I justify paragraphs.  Lines are short, so readability is unaffected.*/
+              text-align: left; /*I try to imitate printed copy with the justified and indented paragraphs.*/
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 0;
+              margin-top: 0; /*Between the short lines and the large letters, I'm trying to entice readers to go on.  "Just another line.  It's not much."*/
+              font-size: x-large;
         }
         #footer {
             width: 100%;
@@ -100,25 +131,26 @@
         }
         .light {
             color: #444;
-            background-color: #fafafa;
+            background-color: #16212d;
         }
         .dark {
             color: #fafafa;
-            background-color: #444;
+            background-color: #16212d;
         }
         .step {
             padding-bottom: 50vh;
             /* margin-bottom: 10vh; */
-            opacity: 0.25;
+            opacity: 0.15;
+
         }
         .step.active {
-            opacity: 0.9;
+            opacity: 0.8;
         }
 
         .step div {
             padding:  25px 50px;
-            line-height: 25px;
-            font-size: 23px;
+            line-height: 45px;
+            font-size: 18px;
         }
 
         .step img {
@@ -143,11 +175,13 @@
             overflow: hidden;
             width: 100%;
             height: 100vh;
+            opacity: .7;
           }
           video {
-            min-width: 100%;
-            min-height: 100vh;
-            z-index: 1;
+            height: 100vh;
+            width: 100vw;
+            overflow-x: initial;
+            margin-left: calc(-50vw + 50%);
           }
           .overlay {
             width: 100%;
@@ -162,46 +196,95 @@
 
           .fade {
             height: 100vh;
-            background-color: #161616;
             margin: 2rem;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: #e7e7e7;
-            font-size: 4rem;
             transition: opacity .7s ease-in-out;
 
           }
           
           .fadeOut {
             opacity: 0;
-            background-color: #161616;
             
           }
           
           .fadeIn {
             opacity: 1;
-            background-color: #161616;
-          }
-          h3{
-            padding:  25px 50px;
-            line-height: 25px;
-            font-size: 23px;
-            color: white;
-          }
+            background-color: #16212d;
+        }
+    
+          a.button1{
+            display:inline-block;
+            padding:0.35em 1.2em;
+            border:0.1em solid #FFFFFF;
+            margin:0 0.3em 0.3em 0;
+            border-radius:0.12em;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-family: 'proxima-nova', sans-serif;
+            font-weight:300;
+            color:#FFFFFF;
+            text-align:center;
+            transition: all 0.2s;
+            }
+          
+            @media all and (max-width:30em){
+            a.button1{
+            display:block;
+            margin:0.4em auto;
+            }
+            }
+
+            a.button1:hover{
+                color:#000000;
+                background-color:#FFFFFF;
+                }
+
+            #headline_title{
+                line-height: 100px;
+                text-align: center;
+                margin: auto;
+            }
         
         </style>
 </head>
 
 
 <body>
-<div class="fade fadeIn fadeOut bg-video-wrap" style= >
-    <video src="./water.mp4" loop muted autoplay>
-        </video>
-    <div class="overlay">
+<div class="fadeIn fade fadeOut">
+    <div class="bg-video-wrap" >
+        <video src="./water.mp4" loop muted autoplay>
+            </video>
+
+          
+        </div>
     </div>
 </div>
+<div id= "headline_title" style= "text-align: center" class="overlay">
+    <h1 style= " font-family: 'orpheus-pro', serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;">
+    High Hazard </h1>
+    <h3 style= "font-family: 'orpheus-pro', serif;
+    font-size: 24pt;"> Reported and Written by Alan Halaly, Developed by Dana Cassidy</h3>
+</div>
+<div style="padding:5%"></div>
+
+
+    <div id="container"  > 
+        <p> Half a century ago, the great environmental awakening that swept Florida and the nation helped stop the Cross-Florida Barge Canal.</p> 
+        <p>But the project’s last remnant, Rodman Dam on the Ocklawaha River, still stands, entangled in political discourse as residents continue to use the area recreationally. The aging dam threatens more than ecosystems. </p> 
+        <p> State officials acknowledge that, amid worsening storms and extreme rains associated with climate change, the dam is now at a high risk of breaching—endangering hundreds of rural homeowners who live nearby. </p> 
+        <p>Officials haven't yet notified families of the risk, and activists worry about the dam causing potential loss of not only marine life but human life as well if the dam isn't fixed or taken down.</p>
+
+    </div>
+
+
+<div style="padding:5%"></div>
 
 <div  style= "position:sticky;" class="fadeIn fade fadeOut" id="map"></div>
 <div id="mapInset"></div>
@@ -209,17 +292,17 @@
 
 <div style= "position: absolute; padding:15%" class="fade fadeIn fadeOut"></div>
 
-<div >
-<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
+<div id= "container">
+            <div style="padding:25%"></div>
 
- <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
- </div>
+        <p>The Florida Department of Environmental Protection is working on an opt-in emergency notification system that would contact affected homeowners should the dam ever fail in a worst-case scenario.</p>
+
+        <p>To further inform readers if they are at risk, WUFT built a searchable database of every address at risk in the FDEP’s 2021 Kirkpatrick Dam Inspection obtained by public records law.  Simply enter an address into the search bar, and it’ll return either a confirmation page with more information, or a page saying that the address wasn’t in the database or was misspelled.</p>
+        
+
+<a href="{{url_for("search")}}" >Login</a>
+        </div>
+
 
 
 

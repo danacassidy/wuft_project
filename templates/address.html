@@ -1,7 +1,37 @@
+    
 
-{% extends 'base.html' %}
+  <link rel="stylesheet" type="text/css" href="main.css"/> 
+  {% extends 'base.html' %}
+  {% block content %}
+<style>
+  body{
+    background-color: #16212d;
+    
+ }
+ p{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 18px;
+    color: white;
+ }
+ h1{
+    font-family: 'orpheus-pro', serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+ }
+ 
+ h2{
+    font-family: 'orpheus-pro', serif;
+    font-weight: medium;
+    font-size: 24pt;
+    color: white;
+ }
+ 
+ ul, li {
+    color: white;
+ }
+</style>
 
-{% block content %}
 
     <span class="title" style = "text-align:center">
         <h1>{% block title %} {{ address.Street }} is considered <b>high risk</b>.{% endblock %}</h1>
@@ -54,25 +84,40 @@
                 <div style="padding:2%"></div>
                 <div class= "border border-dark container" style= "width: 80%; align-items:left">       
                 <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                  mollit anim id est laborum."
+                  Your property is listed as one of more than 530 affected structures at risk should the dam fail. 
+
                 </p>
 
-                <h2> Here's what to do</h2>
-                <ul style="text-align:left; align-items:left">
-                <li>Lorem ipsum dolor sit</li>
-                <li> Contact 123-456-7890</li>
-                <li> Consectetur adipiscing elit,veniam </li>
-                </ul>
-               
+               <p>Look out for direction from the FDEP about the opt-in emergency notification system so you can be in the know if there’s ever an issue. 
+              </p>
 
-                <h2> Further resources</h2>
-                <ul>
-                <li>Lorem ipsum dolor sit</li>
-                <li> Contact 123-456-7890</li>
-                <li> Consectetur adipiscing elit,veniam </li>
-                </ul>
-               
+              <p>In the meantime, here’s how to contact local legislators, FDEP officials and Gov. Ron DeSantis to either express your thoughts and concerns or to find more information.</p>
+
+              <p>Town Leadership </p>
+             <p><ul>
+              <li>Welaka Mayor Jason Watts: jwatts@welaka-fl.gov, (386) 467-9800</li>
+              <li>Crescent City Mayor Michele Myers: mayor@crescentcity-fl.com, (386) 698-2525</li>
+              <li>Palatka Mayor Terill L. Hill: thill@palatka-fl.gov, (386) 329-0100</li>
+             </ul>
+
+              <p>State Leadership 
+              </p>
+              <p><ul>
+               <li>State Sen. Keith Perry: Email him <a href= "https://www.flsenate.gov/Senators/S8"> here</a>. Call his district office in Gainesville at (352) 264-4040.</li>
+               <li>State Rep. Bobby Payne: Email him <a href="https://www.myfloridahouse.gov/Sections/Representatives/contactmember.aspx?MemberId=4653&SessionId=95">here</a>. Call his district office in Palatka at (386) 312-2272.</li>
+              </ul></p>
+
+
+              <p>FDEP Leadership
+              </p>
+              <p><ul>
+               <li>Florida Department of Environmental Protection Secretary Shawn Hamilton: (386) 312-2272</li>
+              </ul></p>
+
+              <p>To contact Gov. Ron DeSantis, email him at GovernorRon.Desantis@eog.myflorida.com. Call his Tallahassee office at (850) 717-9337.
+              </p>
+
+
                   </div>
                   <div style= "text-align:center">
                     <a href="{{ url_for('search') }}" class="btn btn-light" >Back to Search</a>
@@ -86,6 +131,4 @@
        
     </div>
    
-    </html>
-
   {% endblock %}
