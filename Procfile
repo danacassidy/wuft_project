@@ -1,1 +1,1 @@
-web: gunicorn read_db:wuft-dam-project
+web: gunicorn
