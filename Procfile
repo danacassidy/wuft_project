@@ -1,1 +1,1 @@
-web: gunicorn
+web: gunicorn read_db:app
