@@ -23,7 +23,7 @@
     <h1 style= "text-align:center"> The Rodman dam and reservoir in Putnam County, FL puts residents at risk. </h1>
 
     <div id="map" style="height: 500px; width: 80%;  margin-left: auto;
-    margin-right: auto;"></div>
+    margin-right: auto; cursor:none"></div>
     <div class="content">
      
             <div class="address">
@@ -44,11 +44,11 @@
         
                       
                 
-<div style="color:white;">
+        <div style="color:white;">
                 <p style="color:white;">{{ wtf.quick_form(form) }}<p>
                 <b> <p style="color:white;" class="btn" ><strong>{{ message }}</strong></p></b>
-    </div>
-                <div style="padding:5%" >
+            </div>
+        <div style="padding:5%" >
                   <a href="{{ url_for('index') }}" class="btn btn-light">Return to the home page</a>
                   </div>
             </div>

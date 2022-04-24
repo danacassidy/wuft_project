@@ -59,6 +59,7 @@
             overflow-x: initial;
             position: sticky;
             margin-left: calc(-50vw + 50%);
+            cursor:none;
            
         }
         #mapInset {
@@ -351,9 +352,29 @@
     <p>The Florida Department of Environmental Protection is working on an opt-in emergency notification system that would contact affected homeowners should the dam ever fail in a worst-case scenario.</p>
 
     <p>To further inform readers if they are at risk, WUFT built a searchable database of every address at risk in the FDEP’s 2021 Kirkpatrick Dam Inspection obtained by public records law.  Simply enter an address into the search bar, and it’ll return either a confirmation page with more information.</p>
-    <a href="{{ url_for('search') }}" class="button1" >Search for an address</a>
+    <div >
+        <img style="padding:2%;" src="address_found.png" alt="Address found" width="40%" height="40%">
+        <img style="float:right;" src="address_not_found.png" alt="Address not found" width="50%" height="40%">
+
+        <p style="float:left;">Example of a found address search result</p>
+        <p style="float:right;">Example of an address not found search result</p>
+
+    </div>
+    <div >
+
+    </div>
+
+    <div style="padding:5%"></div>
+    <span><a style="align-items: center"href="{{ url_for('search') }}" class="button1" >Search for an address</a></span>
+    <div style="padding:5%"></div>
+
+    <p style="text-decoration: underline;" ><span><i>Learn more</i></span></p>
+
+    <p id="footer" ><span><i>To learn more about how we built this, visit out GitHub repository here.</i></span></p>
+
 
 </div>
+
 
 
     
