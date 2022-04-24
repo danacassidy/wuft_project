@@ -59,7 +59,7 @@
             overflow-x: initial;
             position: sticky;
             margin-left: calc(-50vw + 50%);
-            cursor:none;
+            cursor:pointer;
            
         }
         #mapInset {
@@ -73,6 +73,7 @@
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
             pointer-events: none;
+            
         }
         #my_header {
             margin: auto;
@@ -173,12 +174,14 @@
         }
 
         .bg-video-wrap {
-            width: 100%;
+            width: 100vw;
             height: 100vh;
             height: 100%;
             opacity: .5;
             margin-left: calc(-50vw + 50%);
             margin-top: 0;
+            object-fit: cover;
+
 
 
           }
@@ -187,7 +190,9 @@
             height: 100vh;
             object-fit: cover;
             top: 0;
-  left: 0;
+            left: 0;
+            margin-left: calc(-50vw + 50%);
+
        
           }
           .overlay {
@@ -353,11 +358,6 @@
 
     <p>To further inform readers if they are at risk, WUFT built a searchable database of every address at risk in the FDEP’s 2021 Kirkpatrick Dam Inspection obtained by public records law.  Simply enter an address into the search bar, and it’ll return either a confirmation page with more information.</p>
     <div >
-        <img style="padding:2%;" src="address_found.png" alt="Address found" width="40%" height="40%">
-        <img style="float:right;" src="address_not_found.png" alt="Address not found" width="50%" height="40%">
-
-        <p style="float:left;">Example of a found address search result</p>
-        <p style="float:right;">Example of an address not found search result</p>
 
     </div>
     <div >
