@@ -35,17 +35,18 @@
             font-size: 24pt;
         }
 
-        #my_container {
+        .my_container {
             max-width: 900px; /* keep */
             margin: auto; /* keep */
             padding:  25px 50px;
             line-height: 1.5em;
             font-size: 18px;
             color: white;
+            z-index: 4;
 
         }
 
-        
+
 
         
         a, a:hover, a:visited {
@@ -275,6 +276,38 @@
                                 font-size: 24pt;
                                 color: white;
                              }
+            
+                .end_text{
+                    margin: auto;
+                    position: absolute;
+                    padding:  200px 300px;
+                    line-height: 1.5em;
+                    font-size: 18px;
+                    color: white;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    .end_text{
+                        margin: auto;
+                        position: absolute;
+                        padding:  70px 100px;
+                        line-height: 1.5em;
+                        font-size: 18px;
+                        color: white;
+                    }
+                  }
+
+                  @media only screen and (min-width: 700px) {
+                    .end_text{
+                        margin: auto;
+                        position: absolute;
+                        padding:  100px 300px;
+                        line-height: 1.5em;
+                        font-size: 18px;
+                        color: white;
+                    }
+                  }
+        
         
         </style>
 </head>
@@ -289,15 +322,13 @@
     </div>
     <div id= "headline_title" class="overlay">
     <div class="viewport-header">
-        <span><h1 > High Hazard</h1></span><br/>
+        <h1 > High Hazard</h1>
         </div>
     </div>
-</div>
 
 
-    <div id="my_container"  > 
+    <div class="my_container" > 
         <h2 id="footer" ><span>Reported and Written by Alan Halaly, Developed by Dana Cassidy</span></h2>
-
         <p> Half a century ago, the great environmental awakening that swept Florida and the nation helped stop the Cross-Florida Barge Canal.</p> 
         <p>But the project’s last remnant, Rodman Dam on the Ocklawaha River, still stands, entangled in political discourse as residents continue to use the area recreationally. The aging dam threatens more than ecosystems. </p> 
         <p> State officials acknowledge that, amid worsening storms and extreme rains associated with climate change, the dam is now at a high risk of breaching—endangering hundreds of rural homeowners who live nearby. </p> 
@@ -308,25 +339,25 @@
 
 <div style="padding:5%"></div>
 
-<div  style= "position:sticky;" class="fadeIn fade fadeOut" id="map"></div>
+<div class="fadeIn fade fadeOut" id="map"></div>
 <div id="mapInset"></div>
 <div id="story"></div>
 
-<div style= "position: absolute; padding:15%" class="fade fadeIn fadeOut"></div>
+<div style="padding:5%"></div>
 
-<div id= "my_container">
-            <div style="padding:25%"></div>
+<div class="end_text">
+            <div style="padding:5%"></div>
 
-        <p>The Florida Department of Environmental Protection is working on an opt-in emergency notification system that would contact affected homeowners should the dam ever fail in a worst-case scenario.</p>
+    <p>The Florida Department of Environmental Protection is working on an opt-in emergency notification system that would contact affected homeowners should the dam ever fail in a worst-case scenario.</p>
 
-        <p>To further inform readers if they are at risk, WUFT built a searchable database of every address at risk in the FDEP’s 2021 Kirkpatrick Dam Inspection obtained by public records law.  Simply enter an address into the search bar, and it’ll return either a confirmation page with more information, or a page saying that the address wasn’t in the database or was misspelled.</p>
+    <p>To further inform readers if they are at risk, WUFT built a searchable database of every address at risk in the FDEP’s 2021 Kirkpatrick Dam Inspection obtained by public records law.  Simply enter an address into the search bar, and it’ll return either a confirmation page with more information.</p>
+    <a href="{{ url_for('search') }}" class="button1" >Search for an address</a>
+
+</div>
+
+
     
-        <button type="button" onclick="window.location.href='{{ url_for( 'search' ) }}';"> TEST</button>
-
-
-    </div>
-
-
+   
 
 
 
