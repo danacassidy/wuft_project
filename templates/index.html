@@ -35,7 +35,7 @@
             font-size: 24pt;
         }
 
-        #container {
+        #my_container {
             max-width: 900px; /* keep */
             margin: auto; /* keep */
             padding:  25px 50px;
@@ -100,7 +100,7 @@
             min-height: 5vh;
             padding-top: 2vh;
             padding-bottom: 2vh;
-            text-align: center;
+            text-align: left;
             line-height: 1.5em;
             font-size: 13px;
             position: relative;
@@ -171,17 +171,22 @@
         }
 
         .bg-video-wrap {
-            position: relative;
-            overflow: hidden;
             width: 100%;
             height: 100vh;
-            opacity: .7;
+            height: 100%;
+            opacity: .5;
+            margin-left: calc(-50vw + 50%);
+            margin-top: 0;
+
+
           }
           video {
-            height: 100vh;
             width: 100vw;
-            overflow-x: initial;
-            margin-left: calc(-50vw + 50%);
+            height: 100vh;
+            object-fit: cover;
+            top: 0;
+  left: 0;
+       
           }
           .overlay {
             width: 100%;
@@ -189,7 +194,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            background-image: https://images.app.goo.gl/TyRsNyhZB4ev76yY7;
+            opacity: 0;
             z-index: 4;
             opacity:1;
           }
@@ -248,6 +253,28 @@
                 text-align: center;
                 margin: auto;
             }
+            .viewport-header {
+                position: relative;
+                height: 100vh;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'orpheus-pro', serif;
+                font-weight: bold;
+                font-size: 34px;
+                color: white;
+                            }
+                            p span {
+                                display: block;
+                              }
+            
+                              h2{
+                                font-family: 'orpheus-pro', serif;
+                                font-weight: medium;
+                                font-size: 24pt;
+                                color: white;
+                             }
         
         </style>
 </head>
@@ -258,24 +285,19 @@
     <div class="bg-video-wrap" >
         <video src="./water.mp4" loop muted autoplay>
             </video>
-
-          
+        </div>
+    </div>
+    <div id= "headline_title" class="overlay">
+    <div class="viewport-header">
+        <span><h1 > High Hazard</h1></span><br/>
         </div>
     </div>
 </div>
-<div id= "headline_title" style= "text-align: center" class="overlay">
-    <h1 style= " font-family: 'orpheus-pro', serif;
-    font-weight: bold;
-    font-size: 34px;
-    color: white;">
-    High Hazard </h1>
-    <h3 style= "font-family: 'orpheus-pro', serif;
-    font-size: 24pt;"> Reported and Written by Alan Halaly, Developed by Dana Cassidy</h3>
-</div>
-<div style="padding:5%"></div>
 
 
-    <div id="container"  > 
+    <div id="my_container"  > 
+        <h2 id="footer" ><span>Reported and Written by Alan Halaly, Developed by Dana Cassidy</span></h2>
+
         <p> Half a century ago, the great environmental awakening that swept Florida and the nation helped stop the Cross-Florida Barge Canal.</p> 
         <p>But the project’s last remnant, Rodman Dam on the Ocklawaha River, still stands, entangled in political discourse as residents continue to use the area recreationally. The aging dam threatens more than ecosystems. </p> 
         <p> State officials acknowledge that, amid worsening storms and extreme rains associated with climate change, the dam is now at a high risk of breaching—endangering hundreds of rural homeowners who live nearby. </p> 
@@ -292,16 +314,18 @@
 
 <div style= "position: absolute; padding:15%" class="fade fadeIn fadeOut"></div>
 
-<div id= "container">
+<div id= "my_container">
             <div style="padding:25%"></div>
 
         <p>The Florida Department of Environmental Protection is working on an opt-in emergency notification system that would contact affected homeowners should the dam ever fail in a worst-case scenario.</p>
 
         <p>To further inform readers if they are at risk, WUFT built a searchable database of every address at risk in the FDEP’s 2021 Kirkpatrick Dam Inspection obtained by public records law.  Simply enter an address into the search bar, and it’ll return either a confirmation page with more information, or a page saying that the address wasn’t in the database or was misspelled.</p>
-        
+    
+        <button type="button" onclick="window.location.href='{{ url_for( 'search' ) }}';"> TEST</button>
 
-<a href="{{url_for("search")}}" >Search here</a>
-        </div>
+
+    </div>
+
 
 
 
