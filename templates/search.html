@@ -10,6 +10,8 @@
 
 </head>
 <style>
+
+   
  
 </style>
 
@@ -23,7 +25,7 @@
     <h1 style= "text-align:center"> The Rodman dam and reservoir in Putnam County, FL puts residents at risk. </h1>
 
     <div id="map" style="height: 500px; width: 80%;  margin-left: auto;
-    margin-right: auto; cursor:none"></div>
+    margin-right: auto; cursor:pointer"></div>
     <div class="content">
      
             <div class="address">
@@ -43,13 +45,22 @@
                       </ul>
         
                       
-                
-        <div style="color:white;">
-                <p style="color:white;">{{ wtf.quick_form(form) }}<p>
-                <b> <p style="color:white;" class="btn" ><strong>{{ message }}</strong></p></b>
-            </div>
+                      <form action="" method="post" class="form" role="form">
+                        <input id="csrf_token" name="csrf_token" type="hidden" value="ImFlM2ViYWQzNzc2OGRmMjIwZmM0YTA2OTNmZWY5M2RjN2FhZTNlNTci.YmWyoA.nH04Bq-VFyicdEnFb-sl3iRez9g">
+                      
+                      <div style="color:white;" class="form-group  required"><label class="form-control-label" for="name">Find your address</label>
+                              
+                                <input class="form-control" id="name" name="name" required="" type="text" value="">
+         
+                        </div>
+                      
+                          <input class="btn btn-light" id="submit" name="submit" type="submit" value="Submit">
+
+                      </form>
+       
+
         <div style="padding:5%" >
-                  <a href="{{ url_for('index') }}" class="button1">Return to the home page</a>
+                  <a href="{{ url_for('index') }}" class="btn btn-light">Return to the home page</a>
                   </div>
             </div>
             </div>
