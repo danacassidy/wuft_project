@@ -4,7 +4,7 @@ https://wuft-dam-project.herokuapp.com/
 
 Dana Cassidy built this application for WUFT in supplement to the main reporting and writing done by Alan Halaly.
 
-##### This project is hosted on a heroku site but attached to the main reporting published by WUFT. Please contact danacassidy1@gmail.com for further questions about implementation if republishing the primary story and this project in your news outlet. 
+##### This project is hosted on a heroku site but is paired with a written story published by WUFT. Please contact danacassidy1@gmail.com for further questions about implementation if republishing the primary story and this project in your news outlet. 
 
 TLDR; This is a full-stack application that relies on flask to generate a 3D "scrollytelling" map and postgresql interactive database. 
 
