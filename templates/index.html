@@ -176,13 +176,12 @@
         .bg-video-wrap {
             width: 100vw;
             height: 100vh;
-            height: 100%;
             opacity: .5;
             margin-left: calc(-50vw + 50%);
-            margin-top: 0;
             object-fit: cover;
-
-
+            margin: 0px;
+            overflow-x: initial;
+            height: 110%;
 
           }
           video {
@@ -191,19 +190,28 @@
             object-fit: cover;
             top: 0;
             left: 0;
+            right: 0;
             margin-left: calc(-50vw + 50%);
+            margin: 0px;
+            overflow-x: initial;
+             height: 110%;
+
 
        
           }
           .overlay {
             width: 100%;
             height: 100vh;
+            width: 100wh;
             position: absolute;
             top: 0;
-            left: 0;
             opacity: 0;
             z-index: 4;
             opacity:1;
+            overflow-x: initial;
+            margin: 0px;
+
+
           }
 
           .fade {
@@ -292,22 +300,22 @@
                     color: white;
                 }
 
-                @media only screen and (max-width: 600px) {
+                @media only screen and (max-width: 400px) {
                     .end_text{
                         margin: auto;
                         position: absolute;
-                        padding:  70px 100px;
+                        padding:  25px 50px;
                         line-height: 1.5em;
                         font-size: 18px;
                         color: white;
                     }
                   }
 
-                  @media only screen and (min-width: 700px) {
+                  @media only screen and (min-width: 450px) {
                     .end_text{
                         margin: auto;
                         position: absolute;
-                        padding:  100px 300px;
+                        padding:  25px 50px;                        
                         line-height: 1.5em;
                         font-size: 18px;
                         color: white;
@@ -322,19 +330,22 @@
 <body>
 <div class="fadeIn fade fadeOut">
     <div class="bg-video-wrap" >
-        <video src="./water.mp4" loop muted autoplay>
+        <video src="./water.mp4" autoplay loop muted playsinline>
             </video>
         </div>
     </div>
     <div id= "headline_title" class="overlay">
     <div class="viewport-header">
         <h1 > High Hazard</h1>
+
         </div>
+        
     </div>
 
 
     <div class="my_container" > 
         <h2 id="footer" ><span>Reported and Written by Alan Halaly, Developed by Dana Cassidy</span></h2>
+
         <p> Half a century ago, the great environmental awakening that swept Florida and the nation helped stop the Cross-Florida Barge Canal.</p> 
         <p>But the project’s last remnant, Rodman Dam on the Ocklawaha River, still stands, entangled in political discourse as residents continue to use the area recreationally. The aging dam threatens more than ecosystems. </p> 
         <p> State officials acknowledge that, amid worsening storms and extreme rains associated with climate change, the dam is now at a high risk of breaching—endangering hundreds of rural homeowners who live nearby. </p> 
