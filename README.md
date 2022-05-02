@@ -6,13 +6,13 @@ Dana Cassidy built this application for WUFT in supplement to the main reporting
 
 ##### This project is hosted on a heroku site but is paired with a written story published by WUFT. Please contact danacassidy1@gmail.com for further questions about implementation if republishing the primary story and this project in your news outlet. 
 
-TLDR; This is a full-stack application that relies on flask to generate a 3D "scrollytelling" map and postgresql interactive database. 
+TLDR; This is a full-stack application that relies on flask to generate a 3D "scrollytelling" map and PostgreSQL interactive database. 
 
 ## Primary technologies used:
  - "Scrollytelling" 3D map template from Mapbox: https://demos.mapbox.com/scrollytelling/
  - Flask/Jinja
- - Postgresql and Sqlite
- - JQuery and intersection obsever
+ - PostgreSQL and SQLite
+ - jQuery and intersection obsever
  - Heroku
  - Python address parsing library
  - A little bit of bootstrap
@@ -28,7 +28,7 @@ Officials haven't yet notified families of the risk, and activists worry about t
 
 ## How I built it:
 
-This project served as my final senior project for Advanced Web Applications (server side) at the University of Florida. I built everything by myself, starting with a flask app, then building a sqlite database and connecting it to WTForms and finally converting it to Postgresql to connect to Heroku. I was inspired to use the 3D Mapbox "Scrollytelling" template after viewing a ProPublica article that used the same template. 
+This project served as my final senior project for Advanced Web Applications (server side) at the University of Florida. I built everything by myself, starting with a flask app, then building a SQLite database and connecting it to WTForms and finally converting it to PostgreSQL to connect to Heroku. I was inspired to use the 3D Mapbox "Scrollytelling" template after viewing a ProPublica article that used the same template. 
 
 The database responds correctly to both "road" vs "rd", "street" vs "st", etc. as well as "North" vs "N", etc. inputs. I was able to achieve this using a Python address parsing library and relying on dictionaries to break up the parts of speech and place them back together in a way that matches the strings in a DB-turned-CSV.
 
