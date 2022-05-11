@@ -24,7 +24,7 @@ But the project’s last remnant, Rodman Dam on the Ocklawaha River, still stand
 
 State officials acknowledge that, amid worsening storms and extreme rains associated with climate change, the dam is now at a high risk of breaching—endangering hundreds of rural homeowners who live nearby.
 
-However, state officials have not yet notified families of the risk. WUFT built a searchable database of every address at risk.
+However, state officials have not yet notified families of the risk. WUFT built a searchable database of every address at risk."
 
 ## How I built it:
 
