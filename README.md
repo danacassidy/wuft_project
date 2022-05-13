@@ -30,7 +30,7 @@ However, state officials have not yet notified families of the risk. WUFT built 
 
 This project served as my final senior project for Advanced Web Applications (server side) at the University of Florida. I built everything by myself, starting with a flask app, then building a SQLite database and connecting it to WTForms and finally converting it to PostgreSQL to connect to Heroku. I was inspired to use the 3D Mapbox "Scrollytelling" template after viewing a ProPublica article that used the same template. 
 
-The database responds correctly to both "road" vs "rd", "street" vs "st", etc. as well as "North" vs "N", etc. inputs. I was able to achieve this using a Python address parsing library and relying on dictionaries to break up the parts of speech and place them back together in a way that matches the strings in a DB-turned-CSV.
+The database responds correctly to both "road" vs "rd" vs "rd.", "street" vs "st" vs "st.", etc. as well as "North" vs "N", etc. inputs. I was able to achieve this using a Python address parsing library and relying on dictionaries to break up the parts of speech and place them back together in a way that matches the strings in a DB-turned-CSV.
 
 I developed the website completely by myself, outside of the written content and some color/font suggestions from a designer. It took me about a week to build, as I had to learn how to input and customize the 3D template, figure out how to make the search aspect dynamic, use proper Git and Heroku CLI/deployment, convert my database to PostgreSQL, and other challenging design aspects.
 
